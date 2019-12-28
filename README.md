@@ -1,4 +1,4 @@
-gedit - The GNOME text editor
+ gedit - The GNOME text editor
 =============================
 
 This is version 3.35.2 of gedit.
