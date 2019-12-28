@@ -1,0 +1,1312 @@
+ADD_KEYVAL	gedit-pango.c	/^#define ADD_KEYVAL(key,fmt) \\$/
+ADD_KEYVAL_PRINTF	gedit-pango.c	/^#define ADD_KEYVAL_PRINTF(key,fmt,...) \\$/
+DEBUG_IS_ENABLED	gedit-debug.c	/^#define DEBUG_IS_ENABLED(section) (enabled_section/
+DWORD	gedit-app-win32.c	/^		typedef BOOL (* WINAPI AttachConsole_t) (DWORD);/
+ForeachInfo	gedit-message-bus.c	/^} ForeachInfo;$/
+GBOOLEAN_TO_POINTER	gedit-utils.h	/^#define GBOOLEAN_TO_POINTER(i) (GINT_TO_POINTER ((/
+GEDIT_DOCUMENTS_GROUP_ROW	gedit-documents-panel.c	/^#define GEDIT_DOCUMENTS_GROUP_ROW(obj)            /
+GEDIT_DOCUMENTS_GROUP_ROW_CLASS	gedit-documents-panel.c	/^#define GEDIT_DOCUMENTS_GROUP_ROW_CLASS(klass)    /
+GEDIT_DOCUMENTS_GROUP_ROW_GET_CLASS	gedit-documents-panel.c	/^#define GEDIT_DOCUMENTS_GROUP_ROW_GET_CLASS(obj)  /
+GEDIT_IS_DOCUMENTS_GROUP_ROW	gedit-documents-panel.c	/^#define GEDIT_IS_DOCUMENTS_GROUP_ROW(obj)         /
+GEDIT_IS_DOCUMENTS_GROUP_ROW_CLASS	gedit-documents-panel.c	/^#define GEDIT_IS_DOCUMENTS_GROUP_ROW_CLASS(klass) /
+GEDIT_IS_MESSAGE	gedit-message.h	/^#define GEDIT_IS_MESSAGE(obj)			(G_TYPE_CHECK_INST/
+GEDIT_IS_MESSAGE_BUS	gedit-message-bus.h	/^#define GEDIT_IS_MESSAGE_BUS(obj)		(G_TYPE_CHECK_I/
+GEDIT_IS_MESSAGE_BUS_CLASS	gedit-message-bus.h	/^#define GEDIT_IS_MESSAGE_BUS_CLASS(klass)	(G_TYPE_/
+GEDIT_IS_MESSAGE_CLASS	gedit-message.h	/^#define GEDIT_IS_MESSAGE_CLASS(klass)		(G_TYPE_CHE/
+GEDIT_IS_MULTI_NOTEBOOK	gedit-multi-notebook.h	/^#define GEDIT_IS_MULTI_NOTEBOOK(obj)		(G_TYPE_CHEC/
+GEDIT_IS_MULTI_NOTEBOOK_CLASS	gedit-multi-notebook.h	/^#define GEDIT_IS_MULTI_NOTEBOOK_CLASS(klass)	(G_TY/
+GEDIT_IS_NOTEBOOK	gedit-notebook.h	/^#define GEDIT_IS_NOTEBOOK(o)		(G_TYPE_CHECK_INSTAN/
+GEDIT_IS_NOTEBOOK_CLASS	gedit-notebook.h	/^#define GEDIT_IS_NOTEBOOK_CLASS(k)	(G_TYPE_CHECK_C/
+GEDIT_IS_NOTEBOOK_STACK_SWITCHER	gedit-notebook-stack-switcher.h	/^#define GEDIT_IS_NOTEBOOK_STACK_SWITCHER(obj)     /
+GEDIT_IS_NOTEBOOK_STACK_SWITCHER_CLASS	gedit-notebook-stack-switcher.h	/^#define GEDIT_IS_NOTEBOOK_STACK_SWITCHER_CLASS(kla/
+GEDIT_IS_VIEW	gedit-view.h	/^#define GEDIT_IS_VIEW(obj)         (G_TYPE_CHECK_I/
+GEDIT_IS_VIEW_CLASS	gedit-view.h	/^#define GEDIT_IS_VIEW_CLASS(klass) (G_TYPE_CHECK_C/
+GEDIT_IS_WINDOW	gedit-window.h	/^#define GEDIT_IS_WINDOW(obj)           (G_TYPE_CHE/
+GEDIT_IS_WINDOW_CLASS	gedit-window.h	/^#define GEDIT_IS_WINDOW_CLASS(klass)   (G_TYPE_CHE/
+GEDIT_MESSAGE	gedit-message.h	/^#define GEDIT_MESSAGE(obj)			(G_TYPE_CHECK_INSTANC/
+GEDIT_MESSAGE_BUS	gedit-message-bus.h	/^#define GEDIT_MESSAGE_BUS(obj)			(G_TYPE_CHECK_INS/
+GEDIT_MESSAGE_BUS_CLASS	gedit-message-bus.h	/^#define GEDIT_MESSAGE_BUS_CLASS(klass)		(G_TYPE_CH/
+GEDIT_MESSAGE_BUS_CONST	gedit-message-bus.h	/^#define GEDIT_MESSAGE_BUS_CONST(obj)		(G_TYPE_CHEC/
+GEDIT_MESSAGE_BUS_GET_CLASS	gedit-message-bus.h	/^#define GEDIT_MESSAGE_BUS_GET_CLASS(obj)	(G_TYPE_I/
+GEDIT_MESSAGE_CLASS	gedit-message.h	/^#define GEDIT_MESSAGE_CLASS(klass)		(G_TYPE_CHECK_/
+GEDIT_MESSAGE_CONST	gedit-message.h	/^#define GEDIT_MESSAGE_CONST(obj)		(G_TYPE_CHECK_IN/
+GEDIT_MESSAGE_GET_CLASS	gedit-message.h	/^#define GEDIT_MESSAGE_GET_CLASS(obj)		(G_TYPE_INST/
+GEDIT_MULTI_NOTEBOOK	gedit-multi-notebook.h	/^#define GEDIT_MULTI_NOTEBOOK(obj)		(G_TYPE_CHECK_I/
+GEDIT_MULTI_NOTEBOOK_CLASS	gedit-multi-notebook.h	/^#define GEDIT_MULTI_NOTEBOOK_CLASS(klass)	(G_TYPE_/
+GEDIT_MULTI_NOTEBOOK_CONST	gedit-multi-notebook.h	/^#define GEDIT_MULTI_NOTEBOOK_CONST(obj)		(G_TYPE_C/
+GEDIT_MULTI_NOTEBOOK_GET_CLASS	gedit-multi-notebook.h	/^#define GEDIT_MULTI_NOTEBOOK_GET_CLASS(obj)	(G_TYP/
+GEDIT_NOTEBOOK	gedit-notebook.h	/^#define GEDIT_NOTEBOOK(o)		(G_TYPE_CHECK_INSTANCE_/
+GEDIT_NOTEBOOK_CLASS	gedit-notebook.h	/^#define GEDIT_NOTEBOOK_CLASS(k)		(G_TYPE_CHECK_CLA/
+GEDIT_NOTEBOOK_GET_CLASS	gedit-notebook.h	/^#define GEDIT_NOTEBOOK_GET_CLASS(o)	(G_TYPE_INSTAN/
+GEDIT_NOTEBOOK_STACK_SWITCHER	gedit-notebook-stack-switcher.h	/^#define GEDIT_NOTEBOOK_STACK_SWITCHER(obj)        /
+GEDIT_NOTEBOOK_STACK_SWITCHER_CLASS	gedit-notebook-stack-switcher.h	/^#define GEDIT_NOTEBOOK_STACK_SWITCHER_CLASS(klass)/
+GEDIT_NOTEBOOK_STACK_SWITCHER_GET_CLASS	gedit-notebook-stack-switcher.h	/^#define GEDIT_NOTEBOOK_STACK_SWITCHER_GET_CLASS(ob/
+GEDIT_VIEW	gedit-view.h	/^#define GEDIT_VIEW(obj)            (G_TYPE_CHECK_I/
+GEDIT_VIEW_CLASS	gedit-view.h	/^#define GEDIT_VIEW_CLASS(klass)    (G_TYPE_CHECK_C/
+GEDIT_VIEW_GET_CLASS	gedit-view.h	/^#define GEDIT_VIEW_GET_CLASS(obj)  (G_TYPE_INSTANC/
+GEDIT_WINDOW	gedit-window.h	/^#define GEDIT_WINDOW(obj)              (G_TYPE_CHE/
+GEDIT_WINDOW_CLASS	gedit-window.h	/^#define GEDIT_WINDOW_CLASS(klass)      (G_TYPE_CHE/
+GEDIT_WINDOW_GET_CLASS	gedit-window.h	/^#define GEDIT_WINDOW_GET_CLASS(obj)    (G_TYPE_INS/
+GET_MODE	gedit-close-confirmation-dialog.c	/^#define GET_MODE(dlg) (((dlg->unsaved_documents !=/
+GList	gedit-message-bus.c	/^typedef void (*MatchCallback) (GeditMessageBus *, /
+GPOINTER_TO_BOOLEAN	gedit-utils.h	/^#define GPOINTER_TO_BOOLEAN(i) ((gboolean) ((GPOIN/
+G_DECLARE_DERIVABLE_TYPE	gedit-app.h	/^G_DECLARE_DERIVABLE_TYPE (GeditApp, gedit_app, GED/
+G_DECLARE_FINAL_TYPE	gedit-app-osx.h	/^G_DECLARE_FINAL_TYPE (GeditAppOSX, gedit_app_osx, /
+G_DECLARE_INTERFACE	gedit-app-activatable.h	/^G_DECLARE_INTERFACE (GeditAppActivatable, gedit_ap/
+G_DEFINE_ABSTRACT_TYPE_WITH_PRIVATE	gedit-app.c	/^G_DEFINE_ABSTRACT_TYPE_WITH_PRIVATE (GeditApp, ged/
+G_DEFINE_INTERFACE	gedit-app-activatable.c	/^G_DEFINE_INTERFACE(GeditAppActivatable, gedit_app_/
+G_DEFINE_TYPE	gedit-app-osx.m	/^G_DEFINE_TYPE (GeditAppOSX, gedit_app_osx, GEDIT_T/
+G_DEFINE_TYPE_EXTENDED	gedit-file-chooser-dialog-gtk.c	/^G_DEFINE_TYPE_EXTENDED (GeditFileChooserDialogGtk,/
+G_DEFINE_TYPE_WITH_CODE	gedit-status-menu-button.c	/^G_DEFINE_TYPE_WITH_CODE (GeditStatusMenuButton,$/
+G_DEFINE_TYPE_WITH_PRIVATE	gedit-document.c	/^G_DEFINE_TYPE_WITH_PRIVATE (GeditDocument, gedit_d/
+G_DEPRECATED_FOR	gedit-utils.h	/^G_DEPRECATED_FOR (g_utf8_make_valid)$/
+GeditAppPrivate	gedit-app.c	/^} GeditAppPrivate;$/
+GeditDebugSection	gedit-debug.h	/^} GeditDebugSection;$/
+GeditDocumentPrivate	gedit-document.c	/^} GeditDocumentPrivate;$/
+GeditDocumentsDocumentRow	gedit-documents-panel.c	/^typedef struct _GeditDocumentsGenericRow GeditDocu/
+GeditDocumentsGenericRow	gedit-documents-panel.c	/^typedef struct _GeditDocumentsGenericRow GeditDocu/
+GeditDocumentsGroupRow	gedit-documents-panel.c	/^typedef struct _GeditDocumentsGenericRow GeditDocu/
+GeditDocumentsGroupRowClass	gedit-documents-panel.c	/^typedef struct _GeditDocumentsGroupRowClass GeditD/
+GeditEncodingItem	gedit-encoding-items.h	/^typedef struct _GeditEncodingItem GeditEncodingIte/
+GeditFileChooserFlags	gedit-file-chooser-dialog.h	/^} GeditFileChooserFlags;$/
+GeditLockdownMask	gedit-app.h	/^} GeditLockdownMask;$/
+GeditMessage	gedit-message.h	/^typedef struct _GeditMessage        GeditMessage;$/
+GeditMessageBus	gedit-message-bus.h	/^typedef struct _GeditMessageBus		GeditMessageBus;$/
+GeditMessageBusClass	gedit-message-bus.h	/^typedef struct _GeditMessageBusClass	GeditMessageB/
+GeditMessageBusPrivate	gedit-message-bus.h	/^typedef struct _GeditMessageBusPrivate	GeditMessag/
+GeditMessageClass	gedit-message.h	/^typedef struct _GeditMessageClass   GeditMessageCl/
+GeditMessagePrivate	gedit-message.h	/^typedef struct _GeditMessagePrivate GeditMessagePr/
+GeditMultiNotebook	gedit-multi-notebook.h	/^typedef struct _GeditMultiNotebook		GeditMultiNote/
+GeditMultiNotebookClass	gedit-multi-notebook.h	/^typedef struct _GeditMultiNotebookClass		GeditMult/
+GeditMultiNotebookPrivate	gedit-multi-notebook.h	/^typedef struct _GeditMultiNotebookPrivate	GeditMul/
+GeditNotebook	gedit-notebook.h	/^typedef struct _GeditNotebook		GeditNotebook;$/
+GeditNotebookClass	gedit-notebook.h	/^typedef struct _GeditNotebookClass	GeditNotebookCl/
+GeditNotebookPrivate	gedit-notebook.h	/^typedef struct _GeditNotebookPrivate	GeditNotebook/
+GeditNotebookShowTabsModeType	gedit-notebook.h	/^} GeditNotebookShowTabsModeType;$/
+GeditNotebookStackSwitcher	gedit-notebook-stack-switcher.h	/^typedef struct _GeditNotebookStackSwitcher        /
+GeditNotebookStackSwitcherClass	gedit-notebook-stack-switcher.h	/^typedef struct _GeditNotebookStackSwitcherClass   /
+GeditNotebookStackSwitcherPrivate	gedit-notebook-stack-switcher.h	/^typedef struct _GeditNotebookStackSwitcherPrivate /
+GeditPrintJobResult	gedit-print-job.h	/^} GeditPrintJobResult;$/
+GeditRecentConfiguration	gedit-recent.h	/^} GeditRecentConfiguration;$/
+GeditStatusMenuButtonClassPrivate	gedit-status-menu-button.c	/^} GeditStatusMenuButtonClassPrivate;$/
+GeditTabState	gedit-tab.h	/^} GeditTabState;$/
+GeditView	gedit-view.h	/^typedef struct _GeditView		GeditView;$/
+GeditViewClass	gedit-view.h	/^typedef struct _GeditViewClass		GeditViewClass;$/
+GeditViewPrivate	gedit-view.h	/^typedef struct _GeditViewPrivate	GeditViewPrivate;/
+GeditWindow	gedit-window.h	/^typedef struct _GeditWindow        GeditWindow;$/
+GeditWindowClass	gedit-window.h	/^typedef struct _GeditWindowClass   GeditWindowClas/
+GeditWindowPrivate	gedit-window.h	/^typedef struct _GeditWindowPrivate GeditWindowPriv/
+GeditWindowState	gedit-window.h	/^} GeditWindowState;$/
+IdMap	gedit-message-bus.c	/^} IdMap;$/
+LastSearchData	gedit-commands-search.c	/^typedef struct _LastSearchData LastSearchData;$/
+Listener	gedit-message-bus.c	/^} Listener;$/
+LoaderData	gedit-tab.c	/^typedef struct _LoaderData LoaderData;$/
+Message	gedit-message-bus.c	/^} Message;$/
+MessageIdentifier	gedit-message-bus.c	/^} MessageIdentifier;$/
+Mgedit	gedit.c	/^main (int argc, char *argv[])$/
+RecentFileInfo	gedit-app-osx.m	/^} RecentFileInfo;$/
+SaveAsData	gedit-commands-file.c	/^typedef struct _SaveAsData SaveAsData;$/
+SaverData	gedit-tab.c	/^typedef struct _SaverData SaverData;$/
+SearchMode	gedit-view-frame.c	/^} SearchMode;$/
+SearchState	gedit-view-frame.c	/^} SearchState;$/
+State	gedit-encodings-dialog.c	/^} State;$/
+UnregisterInfo	gedit-message-bus.c	/^} UnregisterInfo;$/
+_gedit_app_extend_menu	gedit-app.c	/^_gedit_app_extend_menu (GeditApp    *app,$/
+_gedit_app_get_default_page_setup	gedit-app.c	/^_gedit_app_get_default_page_setup (GeditApp *app)$/
+_gedit_app_get_default_print_settings	gedit-app.c	/^_gedit_app_get_default_print_settings (GeditApp *a/
+_gedit_app_get_hamburger_menu	gedit-app.c	/^_gedit_app_get_hamburger_menu (GeditApp *app)$/
+_gedit_app_get_line_col_menu	gedit-app.c	/^_gedit_app_get_line_col_menu (GeditApp *app)$/
+_gedit_app_get_notebook_menu	gedit-app.c	/^_gedit_app_get_notebook_menu (GeditApp *app)$/
+_gedit_app_get_settings	gedit-app.c	/^_gedit_app_get_settings (GeditApp *app)$/
+_gedit_app_get_tab_width_menu	gedit-app.c	/^_gedit_app_get_tab_width_menu (GeditApp *app)$/
+_gedit_app_set_default_page_setup	gedit-app.c	/^_gedit_app_set_default_page_setup (GeditApp     *a/
+_gedit_app_set_default_print_settings	gedit-app.c	/^_gedit_app_set_default_print_settings (GeditApp   /
+_gedit_app_set_lockdown	gedit-app.c	/^_gedit_app_set_lockdown (GeditApp          *app,$/
+_gedit_app_set_lockdown_bit	gedit-app.c	/^_gedit_app_set_lockdown_bit (GeditApp          *ap/
+_gedit_cmd_documents_move_to_new_window	gedit-commands-documents.c	/^_gedit_cmd_documents_move_to_new_window (GSimpleAc/
+_gedit_cmd_documents_new_tab_group	gedit-commands-documents.c	/^_gedit_cmd_documents_new_tab_group (GSimpleAction /
+_gedit_cmd_documents_next_document	gedit-commands-documents.c	/^_gedit_cmd_documents_next_document (GSimpleAction /
+_gedit_cmd_documents_next_tab_group	gedit-commands-documents.c	/^_gedit_cmd_documents_next_tab_group (GSimpleAction/
+_gedit_cmd_documents_previous_document	gedit-commands-documents.c	/^_gedit_cmd_documents_previous_document (GSimpleAct/
+_gedit_cmd_documents_previous_tab_group	gedit-commands-documents.c	/^_gedit_cmd_documents_previous_tab_group (GSimpleAc/
+_gedit_cmd_edit_copy	gedit-commands-edit.c	/^_gedit_cmd_edit_copy (GSimpleAction *action,$/
+_gedit_cmd_edit_cut	gedit-commands-edit.c	/^_gedit_cmd_edit_cut (GSimpleAction *action,$/
+_gedit_cmd_edit_delete	gedit-commands-edit.c	/^_gedit_cmd_edit_delete (GSimpleAction *action,$/
+_gedit_cmd_edit_overwrite_mode	gedit-commands-edit.c	/^_gedit_cmd_edit_overwrite_mode (GSimpleAction *act/
+_gedit_cmd_edit_paste	gedit-commands-edit.c	/^_gedit_cmd_edit_paste (GSimpleAction *action,$/
+_gedit_cmd_edit_preferences	gedit-commands-edit.c	/^_gedit_cmd_edit_preferences (GSimpleAction *action/
+_gedit_cmd_edit_redo	gedit-commands-edit.c	/^_gedit_cmd_edit_redo (GSimpleAction *action,$/
+_gedit_cmd_edit_select_all	gedit-commands-edit.c	/^_gedit_cmd_edit_select_all (GSimpleAction *action,/
+_gedit_cmd_edit_undo	gedit-commands-edit.c	/^_gedit_cmd_edit_undo (GSimpleAction *action,$/
+_gedit_cmd_file_close	gedit-commands-file.c	/^_gedit_cmd_file_close (GSimpleAction *action,$/
+_gedit_cmd_file_close_all	gedit-commands-file.c	/^_gedit_cmd_file_close_all (GSimpleAction *action,$/
+_gedit_cmd_file_close_notebook	gedit-commands-file.c	/^_gedit_cmd_file_close_notebook (GeditWindow   *win/
+_gedit_cmd_file_close_tab	gedit-commands-file.c	/^_gedit_cmd_file_close_tab (GeditTab    *tab,$/
+_gedit_cmd_file_new	gedit-commands-file.c	/^_gedit_cmd_file_new (GSimpleAction *action,$/
+_gedit_cmd_file_open	gedit-commands-file.c	/^_gedit_cmd_file_open (GSimpleAction *action,$/
+_gedit_cmd_file_print	gedit-commands-file-print.c	/^_gedit_cmd_file_print (GSimpleAction *action,$/
+_gedit_cmd_file_quit	gedit-commands-file.c	/^_gedit_cmd_file_quit (GSimpleAction *action,$/
+_gedit_cmd_file_reopen_closed_tab	gedit-commands-file.c	/^_gedit_cmd_file_reopen_closed_tab (GSimpleAction */
+_gedit_cmd_file_revert	gedit-commands-file.c	/^_gedit_cmd_file_revert (GSimpleAction *action,$/
+_gedit_cmd_file_save	gedit-commands-file.c	/^_gedit_cmd_file_save (GSimpleAction *action,$/
+_gedit_cmd_file_save_all	gedit-commands-file.c	/^_gedit_cmd_file_save_all (GSimpleAction *action,$/
+_gedit_cmd_file_save_as	gedit-commands-file.c	/^_gedit_cmd_file_save_as (GSimpleAction *action,$/
+_gedit_cmd_file_save_as_cb	gedit-commands-file.c	/^_gedit_cmd_file_save_as_cb (GeditTab     *tab,$/
+_gedit_cmd_help_about	gedit-commands-help.c	/^_gedit_cmd_help_about (GeditWindow *window)$/
+_gedit_cmd_help_contents	gedit-commands-help.c	/^_gedit_cmd_help_contents (GeditWindow *window)$/
+_gedit_cmd_help_keyboard_shortcuts	gedit-commands-help.c	/^_gedit_cmd_help_keyboard_shortcuts (GeditWindow *w/
+_gedit_cmd_load_files_from_prompt	gedit-commands-file.c	/^_gedit_cmd_load_files_from_prompt (GeditWindow    /
+_gedit_cmd_search_clear_highlight	gedit-commands-search.c	/^_gedit_cmd_search_clear_highlight (GSimpleAction */
+_gedit_cmd_search_find	gedit-commands-search.c	/^_gedit_cmd_search_find (GSimpleAction *action,$/
+_gedit_cmd_search_find_next	gedit-commands-search.c	/^_gedit_cmd_search_find_next (GSimpleAction *action/
+_gedit_cmd_search_find_prev	gedit-commands-search.c	/^_gedit_cmd_search_find_prev (GSimpleAction *action/
+_gedit_cmd_search_goto_line	gedit-commands-search.c	/^_gedit_cmd_search_goto_line (GSimpleAction *action/
+_gedit_cmd_search_replace	gedit-commands-search.c	/^_gedit_cmd_search_replace (GSimpleAction *action,$/
+_gedit_cmd_view_focus_active	gedit-commands-view.c	/^_gedit_cmd_view_focus_active (GSimpleAction *actio/
+_gedit_cmd_view_highlight_mode	gedit-commands-view.c	/^_gedit_cmd_view_highlight_mode (GSimpleAction *act/
+_gedit_cmd_view_leave_fullscreen_mode	gedit-commands-view.c	/^_gedit_cmd_view_leave_fullscreen_mode (GSimpleActi/
+_gedit_cmd_view_toggle_bottom_panel	gedit-commands-view.c	/^_gedit_cmd_view_toggle_bottom_panel (GSimpleAction/
+_gedit_cmd_view_toggle_fullscreen_mode	gedit-commands-view.c	/^_gedit_cmd_view_toggle_fullscreen_mode (GSimpleAct/
+_gedit_cmd_view_toggle_side_panel	gedit-commands-view.c	/^_gedit_cmd_view_toggle_side_panel (GSimpleAction */
+_gedit_document_get_create	gedit-document.c	/^_gedit_document_get_create (GeditDocument *doc)$/
+_gedit_document_get_empty_search	gedit-document.c	/^_gedit_document_get_empty_search (GeditDocument *d/
+_gedit_document_get_seconds_since_last_save_or_load	gedit-document.c	/^_gedit_document_get_seconds_since_last_save_or_loa/
+_gedit_document_needs_saving	gedit-document.c	/^_gedit_document_needs_saving (GeditDocument *doc)$/
+_gedit_document_set_create	gedit-document.c	/^_gedit_document_set_create (GeditDocument *doc,$/
+_gedit_multi_notebook_set_show_tabs	gedit-multi-notebook.c	/^_gedit_multi_notebook_set_show_tabs (GeditMultiNot/
+_gedit_tab_get_can_close	gedit-tab.c	/^_gedit_tab_get_can_close (GeditTab *tab)$/
+_gedit_tab_get_icon	gedit-tab.c	/^_gedit_tab_get_icon (GeditTab *tab)$/
+_gedit_tab_get_name	gedit-tab.c	/^_gedit_tab_get_name (GeditTab *tab)$/
+_gedit_tab_get_tooltip	gedit-tab.c	/^_gedit_tab_get_tooltip (GeditTab *tab)$/
+_gedit_tab_get_view_frame	gedit-tab.c	/^_gedit_tab_get_view_frame (GeditTab *tab)$/
+_gedit_tab_load	gedit-tab.c	/^_gedit_tab_load (GeditTab                *tab,$/
+_gedit_tab_load_stream	gedit-tab.c	/^_gedit_tab_load_stream (GeditTab                *t/
+_gedit_tab_mark_for_closing	gedit-tab.c	/^_gedit_tab_mark_for_closing (GeditTab *tab)$/
+_gedit_tab_new	gedit-tab.c	/^_gedit_tab_new (void)$/
+_gedit_tab_print	gedit-tab.c	/^_gedit_tab_print (GeditTab *tab)$/
+_gedit_tab_revert	gedit-tab.c	/^_gedit_tab_revert (GeditTab *tab)$/
+_gedit_tab_save_as_async	gedit-tab.c	/^_gedit_tab_save_as_async (GeditTab                /
+_gedit_tab_save_async	gedit-tab.c	/^_gedit_tab_save_async (GeditTab            *tab,$/
+_gedit_tab_save_finish	gedit-tab.c	/^_gedit_tab_save_finish (GeditTab     *tab,$/
+_gedit_tab_set_network_available	gedit-tab.c	/^_gedit_tab_set_network_available (GeditTab *tab,$/
+_gedit_window_fullscreen	gedit-window.c	/^_gedit_window_fullscreen (GeditWindow *window)$/
+_gedit_window_get_all_tabs	gedit-window.c	/^_gedit_window_get_all_tabs (GeditWindow *window)$/
+_gedit_window_get_default_location	gedit-window.c	/^_gedit_window_get_default_location (GeditWindow *w/
+_gedit_window_get_multi_notebook	gedit-window.c	/^_gedit_window_get_multi_notebook (GeditWindow *win/
+_gedit_window_get_notebook	gedit-window.c	/^_gedit_window_get_notebook (GeditWindow *window)$/
+_gedit_window_is_fullscreen	gedit-window.c	/^_gedit_window_is_fullscreen (GeditWindow *window)$/
+_gedit_window_is_removing_tabs	gedit-window.c	/^_gedit_window_is_removing_tabs (GeditWindow *windo/
+_gedit_window_move_tab_to_new_tab_group	gedit-window.c	/^_gedit_window_move_tab_to_new_tab_group (GeditWind/
+_gedit_window_move_tab_to_new_window	gedit-window.c	/^_gedit_window_move_tab_to_new_window (GeditWindow /
+_gedit_window_pop_last_closed_doc	gedit-window.c	/^_gedit_window_pop_last_closed_doc (GeditWindow *wi/
+_gedit_window_set_default_location	gedit-window.c	/^_gedit_window_set_default_location (GeditWindow *w/
+_gedit_window_set_lockdown	gedit-window.c	/^_gedit_window_set_lockdown (GeditWindow       *win/
+_gedit_window_text_wrapping_change_state	gedit-window.c	/^_gedit_window_text_wrapping_change_state (GSimpleA/
+_gedit_window_unfullscreen	gedit-window.c	/^_gedit_window_unfullscreen (GeditWindow *window)$/
+_get_type	gedit-enum-types.c.template	/^@enum_name@_get_type (void)$/
+about_activated	gedit-app.c	/^about_activated (GSimpleAction  *action,$/
+action_changed	gedit-file-chooser-dialog-gtk.c	/^action_changed (GeditFileChooserDialogGtk *dialog,/
+add_accelerator	gedit-app.c	/^add_accelerator (GtkApplication *app,$/
+add_button_clicked_cb	gedit-encodings-dialog.c	/^add_button_clicked_cb (GtkWidget            *butto/
+add_buttons	gedit-close-confirmation-dialog.c	/^add_buttons (GeditCloseConfirmationDialog *dlg)$/
+add_child	gedit-menu-stack-switcher.c	/^add_child (GeditMenuStackSwitcher *switcher,$/
+add_document	gedit-window.c	/^add_document (GeditTab  *tab,$/
+add_listener	gedit-message-bus.c	/^add_listener (GeditMessageBus      *bus,$/
+add_notebook	gedit-multi-notebook.c	/^add_notebook (GeditMultiNotebook *mnb,$/
+add_popup_menu_items	gedit-view-frame.c	/^add_popup_menu_items (GeditViewFrame *frame,$/
+add_printing_info_bar	gedit-tab.c	/^add_printing_info_bar (GeditTab *tab)$/
+add_scheme_chooser_response_cb	gedit-preferences-dialog.c	/^add_scheme_chooser_response_cb (GeditFileChooserDi/
+add_separator	gedit-encodings-combo-box.c	/^add_separator (GtkListStore *store)$/
+add_unsaved_doc	gedit-window.c	/^add_unsaved_doc (GeditTab *tab,$/
+add_view	gedit-window.c	/^add_view (GeditTab  *tab,$/
+all_text_files_filter	gedit-file-chooser-dialog-gtk.c	/^all_text_files_filter (const GtkFileFilterInfo *fi/
+analyze_tab_state	gedit-window.c	/^analyze_tab_state (GeditTab    *tab,$/
+app_lockdown_changed	gedit-app.c	/^app_lockdown_changed (GeditApp *app)$/
+append_encoding	gedit-encodings-dialog.c	/^append_encoding (GtkListStore            *liststor/
+application	gedit-app-osx.m	/^- (void)application:(NSApplication *)sender openFi/
+applicationShouldHandleReopen	gedit-app-osx.m	/^- (BOOL)applicationShouldHandleReopen:(NSApplicati/
+applicationWillBecomeActive	gedit-app-osx.m	/^- (void)applicationWillBecomeActive:(NSNotificatio/
+apply_settings	gedit-encodings-dialog.c	/^apply_settings (GeditEncodingsDialog *dialog)$/
+at_word_boundaries_toggled_cb	gedit-view-frame.c	/^at_word_boundaries_toggled_cb (GtkCheckMenuItem *m/
+auto_save_finished_cb	gedit-tab.c	/^auto_save_finished_cb (GeditTab     *tab,$/
+backward_search	gedit-view-frame.c	/^backward_search (GeditViewFrame *frame)$/
+backward_search_finished	gedit-commands-search.c	/^backward_search_finished (GtkSourceSearchContext */
+backward_search_from_dialog_finished	gedit-commands-search.c	/^backward_search_from_dialog_finished (GtkSourceSea/
+begin_print_cb	gedit-print-job.c	/^begin_print_cb (GtkPrintOperation *operation,$/
+block_listener	gedit-message-bus.c	/^block_listener (GeditMessageBus *bus,$/
+bottom_panel_item_added	gedit-window.c	/^bottom_panel_item_added (GtkStack    *panel,$/
+bottom_panel_item_removed	gedit-window.c	/^bottom_panel_item_removed (GtkStack    *panel,$/
+bottom_panel_size_allocate	gedit-window.c	/^bottom_panel_size_allocate (GtkWidget     *widget,/
+bottom_panel_visibility_changed	gedit-window.c	/^bottom_panel_visibility_changed (GtkWidget   *pane/
+bracket_matched_cb	gedit-window.c	/^bracket_matched_cb (GtkSourceBuffer           *buf/
+build_multiple_docs_dialog	gedit-close-confirmation-dialog.c	/^build_multiple_docs_dialog (GeditCloseConfirmation/
+build_single_doc_dialog	gedit-close-confirmation-dialog.c	/^build_single_doc_dialog (GeditCloseConfirmationDia/
+can_redo	gedit-window.c	/^can_redo (GeditDocument *doc,$/
+can_undo	gedit-window.c	/^can_undo (GeditDocument *doc,$/
+case_sensitive_toggled_cb	gedit-view-frame.c	/^case_sensitive_toggled_cb (GtkCheckMenuItem *menu_/
+change_compression	gedit-commands-file.c	/^change_compression (GtkWindow *parent,$/
+changed_cb	gedit-encodings-combo-box.c	/^changed_cb (GeditEncodingsComboBox *menu,$/
+chooser_add_pattern_filter	gedit-file-chooser-dialog-gtk.c	/^chooser_add_pattern_filter (GeditFileChooserDialog/
+chooser_destroy	gedit-file-chooser-dialog-gtk.c	/^chooser_destroy (GeditFileChooserDialog *dialog)$/
+chooser_get_encoding	gedit-file-chooser-dialog-gtk.c	/^chooser_get_encoding (GeditFileChooserDialog *dial/
+chooser_get_file	gedit-file-chooser-dialog-gtk.c	/^chooser_get_file (GeditFileChooserDialog *dialog)$/
+chooser_get_files	gedit-file-chooser-dialog-gtk.c	/^chooser_get_files (GeditFileChooserDialog *dialog)/
+chooser_get_newline_type	gedit-file-chooser-dialog-gtk.c	/^chooser_get_newline_type (GeditFileChooserDialog */
+chooser_get_window	gedit-file-chooser-dialog-gtk.c	/^chooser_get_window (GeditFileChooserDialog *dialog/
+chooser_hide	gedit-file-chooser-dialog-gtk.c	/^chooser_hide (GeditFileChooserDialog *dialog)$/
+chooser_set_current_folder	gedit-file-chooser-dialog-gtk.c	/^chooser_set_current_folder (GeditFileChooserDialog/
+chooser_set_current_name	gedit-file-chooser-dialog-gtk.c	/^chooser_set_current_name (GeditFileChooserDialog */
+chooser_set_do_overwrite_confirmation	gedit-file-chooser-dialog-gtk.c	/^chooser_set_do_overwrite_confirmation (GeditFileCh/
+chooser_set_encoding	gedit-file-chooser-dialog-osx.m	/^chooser_set_encoding (GeditFileChooserDialog  *dia/
+chooser_set_file	gedit-file-chooser-dialog-gtk.c	/^chooser_set_file (GeditFileChooserDialog *dialog,$/
+chooser_set_modal	gedit-file-chooser-dialog-gtk.c	/^chooser_set_modal (GeditFileChooserDialog *dialog,/
+chooser_set_newline_type	gedit-file-chooser-dialog-gtk.c	/^chooser_set_newline_type (GeditFileChooserDialog */
+chooser_show	gedit-file-chooser-dialog-gtk.c	/^chooser_show (GeditFileChooserDialog *dialog)$/
+clamp_list_store	gedit-history-entry.c	/^clamp_list_store (GtkListStore *store,$/
+clear_options	gedit-app.c	/^clear_options (GeditApp *app)$/
+clear_popover	gedit-menu-stack-switcher.c	/^clear_popover (GeditMenuStackSwitcher *switcher)$/
+clipboard_owner_change	gedit-window.c	/^clipboard_owner_change (GtkClipboard        *clipb/
+clone_window	gedit-window.c	/^clone_window (GeditWindow *origin)$/
+close_all_tabs	gedit-commands-file.c	/^close_all_tabs (GeditWindow *window)$/
+close_button_clicked	gedit-print-preview.c	/^close_button_clicked (GtkWidget         *button,$/
+close_button_clicked_cb	gedit-notebook.c	/^close_button_clicked_cb (GeditTabLabel *tab_label,/
+close_confirmation_dialog_response_handler	gedit-commands-file.c	/^close_confirmation_dialog_response_handler (GeditC/
+close_document	gedit-commands-file.c	/^close_document (GeditWindow   *window,$/
+close_printing	gedit-tab.c	/^close_printing (GeditTab *tab)$/
+close_tab	gedit-commands-file.c	/^close_tab (GeditTab *tab)$/
+configure_encodings	gedit-encodings-combo-box.c	/^configure_encodings (GeditEncodingsComboBox *menu)/
+confirm_overwrite_callback	gedit-commands-file.c	/^confirm_overwrite_callback (GeditFileChooserDialog/
+connect_active_document	gedit-replace-dialog.c	/^connect_active_document (GeditReplaceDialog *dialo/
+connect_notebook_signals	gedit-multi-notebook.c	/^connect_notebook_signals (GeditMultiNotebook *mnb,/
+connect_search_settings	gedit-document.c	/^connect_search_settings (GeditDocument *doc)$/
+connect_signals	gedit-notebook-stack-switcher.c	/^connect_signals (GeditNotebookStackSwitcher *switc/
+connect_stack_signals	gedit-menu-stack-switcher.c	/^connect_stack_signals (GeditMenuStackSwitcher *swi/
+copy_search_settings	gedit-view-frame.c	/^copy_search_settings (GtkSourceSearchSettings *set/
+create_combo_box	gedit-io-error-info-bar.c	/^create_combo_box (GtkWidget *info_bar,$/
+create_compositor	gedit-print-job.c	/^create_compositor (GeditPrintJob *job)$/
+create_conversion_error_info_bar	gedit-io-error-info-bar.c	/^create_conversion_error_info_bar (const gchar *pri/
+create_custom_widget_cb	gedit-print-job.c	/^create_custom_widget_cb (GtkPrintOperation *operat/
+create_dialog	gedit-commands-search.c	/^create_dialog (GeditWindow *window)$/
+create_encoding_combo	gedit-file-chooser-dialog-osx.m	/^create_encoding_combo (GeditFileChooserDialogOSX */
+create_extra_widget	gedit-file-chooser-dialog-gtk.c	/^create_extra_widget (GeditFileChooserDialogGtk *di/
+create_io_loading_error_info_bar	gedit-io-error-info-bar.c	/^create_io_loading_error_info_bar (const gchar *pri/
+create_list_box	gedit-close-confirmation-dialog.c	/^create_list_box (GeditCloseConfirmationDialog *dlg/
+create_message	gedit-message-bus.c	/^create_message (GeditMessageBus *bus,$/
+create_newline_combo	gedit-file-chooser-dialog-gtk.c	/^create_newline_combo (GeditFileChooserDialogGtk *d/
+create_open_buttons	gedit-window.c	/^create_open_buttons (GeditWindow    *window,$/
+create_option_menu	gedit-file-chooser-dialog-gtk.c	/^create_option_menu (GeditFileChooserDialogGtk *dia/
+create_placeholder_row	gedit-documents-panel.c	/^create_placeholder_row (gint height)$/
+create_preview_surface	gedit-print-preview.c	/^create_preview_surface (GeditPrintPreview *preview/
+create_preview_surface_platform	gedit-print-preview.c	/^create_preview_surface_platform (GtkPaperSize *pap/
+current_buffer_removed	gedit-view.c	/^current_buffer_removed (GeditView *view)$/
+custom_widget_apply_cb	gedit-print-job.c	/^custom_widget_apply_cb (GtkPrintOperation *operati/
+customize_for_search_mode	gedit-view-frame.c	/^customize_for_search_mode (GeditViewFrame *frame)$/
+delete_line	gedit-view.c	/^delete_line (GtkTextView *text_view,$/
+dialog_response_cb	gedit-encodings-combo-box.c	/^dialog_response_cb (GtkDialog              *dialog/
+disconnect_document	gedit-replace-dialog.c	/^disconnect_document (GeditReplaceDialog *dialog)$/
+disconnect_notebook_signals	gedit-multi-notebook.c	/^disconnect_notebook_signals (GeditMultiNotebook *m/
+disconnect_signals	gedit-notebook-stack-switcher.c	/^disconnect_signals (GeditNotebookStackSwitcher *sw/
+disconnect_stack_signals	gedit-menu-stack-switcher.c	/^disconnect_stack_signals (GeditMenuStackSwitcher */
+dispatch_message	gedit-message-bus.c	/^dispatch_message (GeditMessageBus *bus,$/
+dispatch_message_real	gedit-message-bus.c	/^dispatch_message_real (GeditMessageBus *bus,$/
+display_externally_modified_notification	gedit-tab.c	/^display_externally_modified_notification (GeditTab/
+do_find	gedit-commands-search.c	/^do_find (GeditReplaceDialog *dialog,$/
+do_replace	gedit-commands-search.c	/^do_replace (GeditReplaceDialog *dialog,$/
+do_replace_all	gedit-commands-search.c	/^do_replace_all (GeditReplaceDialog *dialog,$/
+do_revert	gedit-commands-file.c	/^do_revert (GeditWindow *window,$/
+doc_get_name	gedit-documents-panel.c	/^doc_get_name (GeditDocument *doc)$/
+document_location_notify_handler	gedit-tab.c	/^document_location_notify_handler (GtkSourceFile *f/
+document_modified_changed	gedit-tab.c	/^document_modified_changed (GtkTextBuffer *document/
+document_row_create_header	gedit-documents-panel.c	/^document_row_create_header (GtkWidget *row)$/
+document_row_query_tooltip	gedit-documents-panel.c	/^document_row_query_tooltip (GtkWidget   *row,$/
+document_row_sync_tab_name_and_icon	gedit-documents-panel.c	/^document_row_sync_tab_name_and_icon (GeditTab   *t/
+document_shortname_notify_handler	gedit-tab.c	/^document_shortname_notify_handler (GeditDocument */
+done_cb	gedit-print-job.c	/^done_cb (GtkPrintOperation       *operation,$/
+done_printing_cb	gedit-tab.c	/^done_printing_cb (GeditPrintJob       *job,$/
+down_button_clicked_cb	gedit-encodings-dialog.c	/^down_button_clicked_cb (GtkWidget            *butt/
+drag_data_received_cb	gedit-notebook.c	/^drag_data_received_cb (GtkWidget        *widget,$/
+drag_drop_cb	gedit-window.c	/^drag_drop_cb (GtkWidget      *widget,$/
+drag_get_uri_target	gedit-view.c	/^drag_get_uri_target (GtkWidget      *widget,$/
+draw_page	gedit-print-preview.c	/^draw_page (cairo_t           *cr,$/
+draw_page_cb	gedit-print-job.c	/^draw_page_cb (GtkPrintOperation *operation,$/
+draw_page_content	gedit-print-preview.c	/^draw_page_content (cairo_t           *cr,$/
+draw_page_frame	gedit-print-preview.c	/^draw_page_frame (cairo_t           *cr,$/
+drop_uris_cb	gedit-window.c	/^drop_uris_cb (GtkWidget    *widget,$/
+dummy_write_func	gedit-print-preview.c	/^dummy_write_func (G_GNUC_UNUSED gpointer      clos/
+editable_changed	gedit-window.c	/^editable_changed (GeditView  *view,$/
+empty_search_notify_cb	gedit-window.c	/^empty_search_notify_cb (GeditDocument *doc,$/
+encoding_list_to_strv	gedit-encodings-dialog.c	/^encoding_list_to_strv (const GSList *enc_list)$/
+encoding_strv_to_list	gedit-settings.c	/^encoding_strv_to_list (const gchar * const *encodi/
+end_print_cb	gedit-print-job.c	/^end_print_cb (GtkPrintOperation *operation,$/
+ensure_user_config_dir	gedit-app.c	/^ensure_user_config_dir (void)$/
+ensure_window	gedit-app-osx.m	/^ensure_window (GeditAppOSX *app,$/
+extension_added	gedit-app.c	/^extension_added (PeasExtensionSet *extensions,$/
+extension_removed	gedit-app.c	/^extension_removed (PeasExtensionSet *extensions,$/
+extension_update_state	gedit-window.c	/^extension_update_state (PeasExtensionSet *extensio/
+externally_modified_error_info_bar_response	gedit-tab.c	/^externally_modified_error_info_bar_response (GtkWi/
+externally_modified_notification_info_bar_response	gedit-tab.c	/^externally_modified_notification_info_bar_response/
+file_already_open_warning_info_bar_response	gedit-tab.c	/^file_already_open_warning_info_bar_response (GtkWi/
+file_already_opened	gedit-tab.c	/^file_already_opened (GeditDocument *doc,$/
+file_close_all	gedit-commands-file.c	/^file_close_all (GeditWindow *window,$/
+file_close_dialog	gedit-commands-file.c	/^file_close_dialog (GeditWindow *window,$/
+file_copy	gedit-preferences-dialog.c	/^file_copy (const gchar  *name,$/
+file_read_only_notify_handler	gedit-view.c	/^file_read_only_notify_handler (GtkSourceFile *file/
+files	meson.build	/^libgedit_public_h = files($/
+filter_changed	gedit-file-chooser-dialog-gtk.c	/^filter_changed (GeditFileChooserDialogGtk *dialog,/
+find_extension_point_section	gedit-app.c	/^find_extension_point_section (GMenuModel  *model,$/
+find_notebook_child	gedit-notebook-stack-switcher.c	/^find_notebook_child (GeditNotebookStackSwitcher *s/
+find_tab_num_at_pos	gedit-notebook.c	/^find_tab_num_at_pos (GtkNotebook *notebook,$/
+finish_search	gedit-view-frame.c	/^finish_search (GeditViewFrame    *frame,$/
+finish_search_from_dialog	gedit-commands-search.c	/^finish_search_from_dialog (GeditWindow *window,$/
+foreach_stack	gedit-menu-stack-switcher.c	/^foreach_stack (GtkWidget              *widget,$/
+foreach_type	gedit-message-bus.c	/^foreach_type (MessageIdentifier *identifier,$/
+forward_search	gedit-view-frame.c	/^forward_search (GeditViewFrame *frame)$/
+forward_search_finished	gedit-commands-search.c	/^forward_search_finished (GtkSourceSearchContext *s/
+forward_search_from_dialog_finished	gedit-commands-search.c	/^forward_search_from_dialog_finished (GtkSourceSear/
+forwardingTargetForSelector	gedit-app-osx.m	/^- (id)forwardingTargetForSelector:(SEL)aSelector$/
+free_type	gedit-message-bus.c	/^free_type (gpointer data)$/
+gedit_app_activatable_activate	gedit-app-activatable.c	/^gedit_app_activatable_activate (GeditAppActivatabl/
+gedit_app_activatable_deactivate	gedit-app-activatable.c	/^gedit_app_activatable_deactivate (GeditAppActivata/
+gedit_app_activatable_extend_menu	gedit-app-activatable.c	/^gedit_app_activatable_extend_menu (GeditAppActivat/
+gedit_app_activate	gedit-app.c	/^gedit_app_activate (GApplication *application)$/
+gedit_app_add_platform_data	gedit-app-x11.c	/^gedit_app_add_platform_data (GApplication    *app,/
+gedit_app_class_init	gedit-app.c	/^gedit_app_class_init (GeditAppClass *klass)$/
+gedit_app_command_line	gedit-app.c	/^gedit_app_command_line (GApplication            *a/
+gedit_app_create_window	gedit-app.c	/^gedit_app_create_window (GeditApp  *app,$/
+gedit_app_create_window_impl	gedit-app.c	/^gedit_app_create_window_impl (GeditApp *app)$/
+gedit_app_get_documents	gedit-app.c	/^gedit_app_get_documents	(GeditApp *app)$/
+gedit_app_get_lockdown	gedit-app.c	/^gedit_app_get_lockdown (GeditApp *app)$/
+gedit_app_get_main_windows	gedit-app.c	/^gedit_app_get_main_windows (GeditApp *app)$/
+gedit_app_get_property	gedit-app.c	/^gedit_app_get_property (GObject    *object,$/
+gedit_app_get_views	gedit-app.c	/^gedit_app_get_views (GeditApp *app)$/
+gedit_app_handle_local_options	gedit-app.c	/^gedit_app_handle_local_options (GApplication *appl/
+gedit_app_help_link_id_impl	gedit-app.c	/^gedit_app_help_link_id_impl (GeditApp    *app,$/
+gedit_app_init	gedit-app.c	/^gedit_app_init (GeditApp *app)$/
+gedit_app_open	gedit-app.c	/^gedit_app_open (GApplication  *application,$/
+gedit_app_osx_class_init	gedit-app-osx.m	/^gedit_app_osx_class_init (GeditAppOSXClass *klass)/
+gedit_app_osx_constructed	gedit-app-osx.m	/^gedit_app_osx_constructed (GObject *object)$/
+gedit_app_osx_create_window_impl	gedit-app-osx.m	/^gedit_app_osx_create_window_impl (GeditApp *app)$/
+gedit_app_osx_finalize	gedit-app-osx.m	/^gedit_app_osx_finalize (GObject *object)$/
+gedit_app_osx_init	gedit-app-osx.m	/^gedit_app_osx_init (GeditAppOSX *app)$/
+gedit_app_osx_process_window_event_impl	gedit-app-osx.m	/^gedit_app_osx_process_window_event_impl (GeditApp /
+gedit_app_osx_set_window_title_impl	gedit-app-osx.m	/^gedit_app_osx_set_window_title_impl (GeditApp    */
+gedit_app_osx_show_help_impl	gedit-app-osx.m	/^gedit_app_osx_show_help_impl (GeditApp    *app,$/
+gedit_app_osx_show_url	gedit-app-osx.m	/^gedit_app_osx_show_url (GeditAppOSX *app,$/
+gedit_app_osx_startup	gedit-app-osx.m	/^gedit_app_osx_startup (GApplication *application)$/
+gedit_app_osx_window_added	gedit-app-osx.m	/^gedit_app_osx_window_added (GtkApplication *applic/
+gedit_app_osx_window_removed	gedit-app-osx.m	/^gedit_app_osx_window_removed (GtkApplication *appl/
+gedit_app_process_window_event	gedit-app.c	/^gedit_app_process_window_event (GeditApp    *app,$/
+gedit_app_set_window_title	gedit-app.c	/^gedit_app_set_window_title (GeditApp    *app,$/
+gedit_app_set_window_title_impl	gedit-app.c	/^gedit_app_set_window_title_impl (GeditApp    *app,/
+gedit_app_show_help	gedit-app.c	/^gedit_app_show_help (GeditApp    *app,$/
+gedit_app_show_help_impl	gedit-app.c	/^gedit_app_show_help_impl (GeditApp    *app,$/
+gedit_app_shutdown	gedit-app.c	/^gedit_app_shutdown (GApplication *app)$/
+gedit_app_startup	gedit-app.c	/^gedit_app_startup (GApplication *application)$/
+gedit_app_win32_class_init	gedit-app-win32.c	/^gedit_app_win32_class_init (GeditAppWin32Class *kl/
+gedit_app_win32_help_link_id_impl	gedit-app-win32.c	/^gedit_app_win32_help_link_id_impl (GeditApp    *ap/
+gedit_app_win32_init	gedit-app-win32.c	/^gedit_app_win32_init (GeditAppWin32 *self)$/
+gedit_app_win32_startup	gedit-app-win32.c	/^gedit_app_win32_startup (GApplication *application/
+gedit_app_x11_class_init	gedit-app-x11.c	/^gedit_app_x11_class_init (GeditAppX11Class *klass)/
+gedit_app_x11_init	gedit-app-x11.c	/^gedit_app_x11_init (GeditAppX11 *self)$/
+gedit_close_confirmation_dialog_class_init	gedit-close-confirmation-dialog.c	/^gedit_close_confirmation_dialog_class_init (GeditC/
+gedit_close_confirmation_dialog_finalize	gedit-close-confirmation-dialog.c	/^gedit_close_confirmation_dialog_finalize (GObject /
+gedit_close_confirmation_dialog_get_property	gedit-close-confirmation-dialog.c	/^gedit_close_confirmation_dialog_get_property (GObj/
+gedit_close_confirmation_dialog_get_selected_documents	gedit-close-confirmation-dialog.c	/^gedit_close_confirmation_dialog_get_selected_docum/
+gedit_close_confirmation_dialog_get_unsaved_documents	gedit-close-confirmation-dialog.c	/^gedit_close_confirmation_dialog_get_unsaved_docume/
+gedit_close_confirmation_dialog_init	gedit-close-confirmation-dialog.c	/^gedit_close_confirmation_dialog_init (GeditCloseCo/
+gedit_close_confirmation_dialog_new	gedit-close-confirmation-dialog.c	/^gedit_close_confirmation_dialog_new (GtkWindow *pa/
+gedit_close_confirmation_dialog_new_single	gedit-close-confirmation-dialog.c	/^gedit_close_confirmation_dialog_new_single (GtkWin/
+gedit_close_confirmation_dialog_set_property	gedit-close-confirmation-dialog.c	/^gedit_close_confirmation_dialog_set_property (GObj/
+gedit_commands_load_location	gedit-commands-file.c	/^gedit_commands_load_location (GeditWindow         /
+gedit_commands_load_locations	gedit-commands-file.c	/^gedit_commands_load_locations (GeditWindow        /
+gedit_commands_save_all_documents	gedit-commands-file.c	/^gedit_commands_save_all_documents (GeditWindow *wi/
+gedit_commands_save_document	gedit-commands-file.c	/^gedit_commands_save_document (GeditWindow   *windo/
+gedit_commands_save_document_async	gedit-commands-file.c	/^gedit_commands_save_document_async (GeditDocument /
+gedit_commands_save_document_finish	gedit-commands-file.c	/^gedit_commands_save_document_finish (GeditDocument/
+gedit_conversion_error_info_bar_get_encoding	gedit-io-error-info-bar.c	/^gedit_conversion_error_info_bar_get_encoding (GtkW/
+gedit_conversion_error_while_saving_info_bar_new	gedit-io-error-info-bar.c	/^gedit_conversion_error_while_saving_info_bar_new (/
+gedit_debug	gedit-debug.c	/^gedit_debug (GeditDebugSection  section,$/
+gedit_debug_init	gedit-debug.c	/^gedit_debug_init (void)$/
+gedit_debug_message	gedit-debug.c	/^gedit_debug_message (GeditDebugSection  section,$/
+gedit_debug_plugin_message	gedit-debug.c	/^gedit_debug_plugin_message (const gchar       *fil/
+gedit_dirs_get_gedit_lib_dir	gedit-dirs.c	/^gedit_dirs_get_gedit_lib_dir (void)$/
+gedit_dirs_get_gedit_locale_dir	gedit-dirs.c	/^gedit_dirs_get_gedit_locale_dir (void)$/
+gedit_dirs_get_gedit_plugins_data_dir	gedit-dirs.c	/^gedit_dirs_get_gedit_plugins_data_dir (void)$/
+gedit_dirs_get_gedit_plugins_dir	gedit-dirs.c	/^gedit_dirs_get_gedit_plugins_dir (void)$/
+gedit_dirs_get_user_config_dir	gedit-dirs.c	/^gedit_dirs_get_user_config_dir (void)$/
+gedit_dirs_get_user_data_dir	gedit-dirs.c	/^gedit_dirs_get_user_data_dir (void)$/
+gedit_dirs_get_user_plugins_dir	gedit-dirs.c	/^gedit_dirs_get_user_plugins_dir (void)$/
+gedit_dirs_get_user_styles_dir	gedit-dirs.c	/^gedit_dirs_get_user_styles_dir (void)$/
+gedit_dirs_init	gedit-dirs.c	/^gedit_dirs_init ()$/
+gedit_dirs_shutdown	gedit-dirs.c	/^gedit_dirs_shutdown ()$/
+gedit_document_begin_user_action	gedit-document.c	/^gedit_document_begin_user_action (GtkTextBuffer *b/
+gedit_document_changed	gedit-document.c	/^gedit_document_changed (GtkTextBuffer *buffer)$/
+gedit_document_class_init	gedit-document.c	/^gedit_document_class_init (GeditDocumentClass *kla/
+gedit_document_constructed	gedit-document.c	/^gedit_document_constructed (GObject *object)$/
+gedit_document_dispose	gedit-document.c	/^gedit_document_dispose (GObject *object)$/
+gedit_document_end_user_action	gedit-document.c	/^gedit_document_end_user_action (GtkTextBuffer *buf/
+gedit_document_finalize	gedit-document.c	/^gedit_document_finalize (GObject *object)$/
+gedit_document_get_content_type	gedit-document.c	/^gedit_document_get_content_type (GeditDocument *do/
+gedit_document_get_file	gedit-document.c	/^gedit_document_get_file (GeditDocument *doc)$/
+gedit_document_get_language	gedit-document.c	/^gedit_document_get_language (GeditDocument *doc)$/
+gedit_document_get_metadata	gedit-document.c	/^gedit_document_get_metadata (GeditDocument *doc,$/
+gedit_document_get_mime_type	gedit-document.c	/^gedit_document_get_mime_type (GeditDocument *doc)$/
+gedit_document_get_property	gedit-document.c	/^gedit_document_get_property (GObject    *object,$/
+gedit_document_get_search_context	gedit-document.c	/^gedit_document_get_search_context (GeditDocument */
+gedit_document_get_short_name_for_display	gedit-document.c	/^gedit_document_get_short_name_for_display (GeditDo/
+gedit_document_get_uri_for_display	gedit-document.c	/^gedit_document_get_uri_for_display (GeditDocument /
+gedit_document_goto_line	gedit-document.c	/^gedit_document_goto_line (GeditDocument *doc,$/
+gedit_document_goto_line_offset	gedit-document.c	/^gedit_document_goto_line_offset (GeditDocument *do/
+gedit_document_init	gedit-document.c	/^gedit_document_init (GeditDocument *doc)$/
+gedit_document_is_untitled	gedit-document.c	/^gedit_document_is_untitled (GeditDocument *doc)$/
+gedit_document_is_untouched	gedit-document.c	/^gedit_document_is_untouched (GeditDocument *doc)$/
+gedit_document_loaded_real	gedit-document.c	/^gedit_document_loaded_real (GeditDocument *doc)$/
+gedit_document_mark_set	gedit-document.c	/^gedit_document_mark_set (GtkTextBuffer     *buffer/
+gedit_document_new	gedit-document.c	/^gedit_document_new (void)$/
+gedit_document_saved_real	gedit-document.c	/^gedit_document_saved_real (GeditDocument *doc)$/
+gedit_document_set_language	gedit-document.c	/^gedit_document_set_language (GeditDocument     *do/
+gedit_document_set_metadata	gedit-document.c	/^gedit_document_set_metadata (GeditDocument *doc,$/
+gedit_document_set_property	gedit-document.c	/^gedit_document_set_property (GObject      *object,/
+gedit_document_set_search_context	gedit-document.c	/^gedit_document_set_search_context (GeditDocument  /
+gedit_documents_document_row_class_init	gedit-documents-panel.c	/^gedit_documents_document_row_class_init (GeditDocu/
+gedit_documents_document_row_get_type	gedit-documents-panel.c	/^GType gedit_documents_document_row_get_type (void)/
+gedit_documents_document_row_init	gedit-documents-panel.c	/^gedit_documents_document_row_init (GeditDocumentsD/
+gedit_documents_document_row_new	gedit-documents-panel.c	/^gedit_documents_document_row_new (GeditDocumentsPa/
+gedit_documents_group_row_class_init	gedit-documents-panel.c	/^gedit_documents_group_row_class_init (GeditDocumen/
+gedit_documents_group_row_get_type	gedit-documents-panel.c	/^GType gedit_documents_group_row_get_type (void) G_/
+gedit_documents_group_row_init	gedit-documents-panel.c	/^gedit_documents_group_row_init (GeditDocumentsGrou/
+gedit_documents_group_row_new	gedit-documents-panel.c	/^gedit_documents_group_row_new (GeditDocumentsPanel/
+gedit_documents_panel_class_init	gedit-documents-panel.c	/^gedit_documents_panel_class_init (GeditDocumentsPa/
+gedit_documents_panel_dispose	gedit-documents-panel.c	/^gedit_documents_panel_dispose (GObject *object)$/
+gedit_documents_panel_finalize	gedit-documents-panel.c	/^gedit_documents_panel_finalize (GObject *object)$/
+gedit_documents_panel_get_property	gedit-documents-panel.c	/^gedit_documents_panel_get_property (GObject    *ob/
+gedit_documents_panel_init	gedit-documents-panel.c	/^gedit_documents_panel_init (GeditDocumentsPanel *p/
+gedit_documents_panel_new	gedit-documents-panel.c	/^gedit_documents_panel_new (GeditWindow *window)$/
+gedit_documents_panel_set_property	gedit-documents-panel.c	/^gedit_documents_panel_set_property (GObject      */
+gedit_encoding_item_free	gedit-encoding-items.c	/^gedit_encoding_item_free (GeditEncodingItem *item)/
+gedit_encoding_item_get_encoding	gedit-encoding-items.c	/^gedit_encoding_item_get_encoding (GeditEncodingIte/
+gedit_encoding_item_get_name	gedit-encoding-items.c	/^gedit_encoding_item_get_name (GeditEncodingItem *i/
+gedit_encoding_item_new	gedit-encoding-items.c	/^gedit_encoding_item_new (const GtkSourceEncoding */
+gedit_encoding_items_get	gedit-encoding-items.c	/^gedit_encoding_items_get (void)$/
+gedit_encodings_combo_box_class_init	gedit-encodings-combo-box.c	/^gedit_encodings_combo_box_class_init (GeditEncodin/
+gedit_encodings_combo_box_constructed	gedit-encodings-combo-box.c	/^gedit_encodings_combo_box_constructed (GObject *ob/
+gedit_encodings_combo_box_dispose	gedit-encodings-combo-box.c	/^gedit_encodings_combo_box_dispose (GObject *object/
+gedit_encodings_combo_box_get_property	gedit-encodings-combo-box.c	/^gedit_encodings_combo_box_get_property (GObject   /
+gedit_encodings_combo_box_get_selected_encoding	gedit-encodings-combo-box.c	/^gedit_encodings_combo_box_get_selected_encoding (G/
+gedit_encodings_combo_box_init	gedit-encodings-combo-box.c	/^gedit_encodings_combo_box_init (GeditEncodingsComb/
+gedit_encodings_combo_box_new	gedit-encodings-combo-box.c	/^gedit_encodings_combo_box_new (gboolean save_mode)/
+gedit_encodings_combo_box_set_selected_encoding	gedit-encodings-combo-box.c	/^gedit_encodings_combo_box_set_selected_encoding (G/
+gedit_encodings_dialog_class_init	gedit-encodings-dialog.c	/^gedit_encodings_dialog_class_init (GeditEncodingsD/
+gedit_encodings_dialog_dispose	gedit-encodings-dialog.c	/^gedit_encodings_dialog_dispose (GObject *object)$/
+gedit_encodings_dialog_init	gedit-encodings-dialog.c	/^gedit_encodings_dialog_init (GeditEncodingsDialog /
+gedit_encodings_dialog_new	gedit-encodings-dialog.c	/^gedit_encodings_dialog_new (void)$/
+gedit_encodings_dialog_response	gedit-encodings-dialog.c	/^gedit_encodings_dialog_response (GtkDialog *gtk_di/
+gedit_externally_modified_info_bar_new	gedit-io-error-info-bar.c	/^gedit_externally_modified_info_bar_new (GFile    */
+gedit_externally_modified_saving_error_info_bar_new	gedit-io-error-info-bar.c	/^gedit_externally_modified_saving_error_info_bar_ne/
+gedit_file_already_open_warning_info_bar_new	gedit-io-error-info-bar.c	/^gedit_file_already_open_warning_info_bar_new (GFil/
+gedit_file_chooser_dialog_add_pattern_filter	gedit-file-chooser-dialog.c	/^gedit_file_chooser_dialog_add_pattern_filter (Gedi/
+gedit_file_chooser_dialog_create	gedit-file-chooser-dialog.c	/^gedit_file_chooser_dialog_create (const gchar     /
+gedit_file_chooser_dialog_default_init	gedit-file-chooser-dialog.c	/^gedit_file_chooser_dialog_default_init (GeditFileC/
+gedit_file_chooser_dialog_destroy	gedit-file-chooser-dialog.c	/^gedit_file_chooser_dialog_destroy (GeditFileChoose/
+gedit_file_chooser_dialog_get_encoding	gedit-file-chooser-dialog.c	/^gedit_file_chooser_dialog_get_encoding (GeditFileC/
+gedit_file_chooser_dialog_get_file	gedit-file-chooser-dialog.c	/^gedit_file_chooser_dialog_get_file (GeditFileChoos/
+gedit_file_chooser_dialog_get_files	gedit-file-chooser-dialog.c	/^gedit_file_chooser_dialog_get_files (GeditFileChoo/
+gedit_file_chooser_dialog_get_newline_type	gedit-file-chooser-dialog.c	/^gedit_file_chooser_dialog_get_newline_type (GeditF/
+gedit_file_chooser_dialog_get_window	gedit-file-chooser-dialog.c	/^gedit_file_chooser_dialog_get_window (GeditFileCho/
+gedit_file_chooser_dialog_gtk_chooser_init	gedit-file-chooser-dialog-gtk.c	/^gedit_file_chooser_dialog_gtk_chooser_init (gpoint/
+gedit_file_chooser_dialog_gtk_class_init	gedit-file-chooser-dialog-gtk.c	/^gedit_file_chooser_dialog_gtk_class_init (GeditFil/
+gedit_file_chooser_dialog_gtk_create	gedit-file-chooser-dialog-gtk.c	/^gedit_file_chooser_dialog_gtk_create (const gchar /
+gedit_file_chooser_dialog_gtk_dispose	gedit-file-chooser-dialog-gtk.c	/^gedit_file_chooser_dialog_gtk_dispose (GObject *ob/
+gedit_file_chooser_dialog_gtk_init	gedit-file-chooser-dialog-gtk.c	/^gedit_file_chooser_dialog_gtk_init (GeditFileChoos/
+gedit_file_chooser_dialog_hide	gedit-file-chooser-dialog.c	/^gedit_file_chooser_dialog_hide (GeditFileChooserDi/
+gedit_file_chooser_dialog_osx_chooser_init	gedit-file-chooser-dialog-osx.m	/^gedit_file_chooser_dialog_osx_chooser_init (gpoint/
+gedit_file_chooser_dialog_osx_class_init	gedit-file-chooser-dialog-osx.m	/^gedit_file_chooser_dialog_osx_class_init (GeditFil/
+gedit_file_chooser_dialog_osx_create	gedit-file-chooser-dialog-osx.m	/^gedit_file_chooser_dialog_osx_create (const gchar /
+gedit_file_chooser_dialog_osx_dispose	gedit-file-chooser-dialog-osx.m	/^gedit_file_chooser_dialog_osx_dispose (GObject *ob/
+gedit_file_chooser_dialog_osx_init	gedit-file-chooser-dialog-osx.m	/^gedit_file_chooser_dialog_osx_init (GeditFileChoos/
+gedit_file_chooser_dialog_set_current_folder	gedit-file-chooser-dialog.c	/^gedit_file_chooser_dialog_set_current_folder (Gedi/
+gedit_file_chooser_dialog_set_current_name	gedit-file-chooser-dialog.c	/^gedit_file_chooser_dialog_set_current_name (GeditF/
+gedit_file_chooser_dialog_set_do_overwrite_confirmation	gedit-file-chooser-dialog.c	/^gedit_file_chooser_dialog_set_do_overwrite_confirm/
+gedit_file_chooser_dialog_set_encoding	gedit-file-chooser-dialog.c	/^gedit_file_chooser_dialog_set_encoding (GeditFileC/
+gedit_file_chooser_dialog_set_file	gedit-file-chooser-dialog.c	/^gedit_file_chooser_dialog_set_file (GeditFileChoos/
+gedit_file_chooser_dialog_set_modal	gedit-file-chooser-dialog.c	/^gedit_file_chooser_dialog_set_modal (GeditFileChoo/
+gedit_file_chooser_dialog_set_newline_type	gedit-file-chooser-dialog.c	/^gedit_file_chooser_dialog_set_newline_type (GeditF/
+gedit_file_chooser_dialog_show	gedit-file-chooser-dialog.c	/^gedit_file_chooser_dialog_show (GeditFileChooserDi/
+gedit_highlight_mode_dialog_class_init	gedit-highlight-mode-dialog.c	/^gedit_highlight_mode_dialog_class_init (GeditHighl/
+gedit_highlight_mode_dialog_get_selector	gedit-highlight-mode-dialog.c	/^gedit_highlight_mode_dialog_get_selector (GeditHig/
+gedit_highlight_mode_dialog_init	gedit-highlight-mode-dialog.c	/^gedit_highlight_mode_dialog_init (GeditHighlightMo/
+gedit_highlight_mode_dialog_new	gedit-highlight-mode-dialog.c	/^gedit_highlight_mode_dialog_new (GtkWindow *parent/
+gedit_highlight_mode_selector_activate_selected_language	gedit-highlight-mode-selector.c	/^gedit_highlight_mode_selector_activate_selected_la/
+gedit_highlight_mode_selector_class_init	gedit-highlight-mode-selector.c	/^gedit_highlight_mode_selector_class_init (GeditHig/
+gedit_highlight_mode_selector_init	gedit-highlight-mode-selector.c	/^gedit_highlight_mode_selector_init (GeditHighlight/
+gedit_highlight_mode_selector_new	gedit-highlight-mode-selector.c	/^gedit_highlight_mode_selector_new ()$/
+gedit_highlight_mode_selector_select_language	gedit-highlight-mode-selector.c	/^gedit_highlight_mode_selector_select_language (Ged/
+gedit_history_entry_append_text	gedit-history-entry.c	/^gedit_history_entry_append_text (GeditHistoryEntry/
+gedit_history_entry_class_init	gedit-history-entry.c	/^gedit_history_entry_class_init (GeditHistoryEntryC/
+gedit_history_entry_clear	gedit-history-entry.c	/^gedit_history_entry_clear (GeditHistoryEntry *entr/
+gedit_history_entry_dispose	gedit-history-entry.c	/^gedit_history_entry_dispose (GObject *object)$/
+gedit_history_entry_finalize	gedit-history-entry.c	/^gedit_history_entry_finalize (GObject *object)$/
+gedit_history_entry_get_enable_completion	gedit-history-entry.c	/^gedit_history_entry_get_enable_completion (GeditHi/
+gedit_history_entry_get_entry	gedit-history-entry.c	/^gedit_history_entry_get_entry (GeditHistoryEntry */
+gedit_history_entry_get_history_length	gedit-history-entry.c	/^gedit_history_entry_get_history_length (GeditHisto/
+gedit_history_entry_get_property	gedit-history-entry.c	/^gedit_history_entry_get_property (GObject    *obje/
+gedit_history_entry_init	gedit-history-entry.c	/^gedit_history_entry_init (GeditHistoryEntry *entry/
+gedit_history_entry_load_history	gedit-history-entry.c	/^gedit_history_entry_load_history (GeditHistoryEntr/
+gedit_history_entry_new	gedit-history-entry.c	/^gedit_history_entry_new (const gchar *history_id,$/
+gedit_history_entry_prepend_text	gedit-history-entry.c	/^gedit_history_entry_prepend_text (GeditHistoryEntr/
+gedit_history_entry_save_history	gedit-history-entry.c	/^gedit_history_entry_save_history (GeditHistoryEntr/
+gedit_history_entry_set_enable_completion	gedit-history-entry.c	/^gedit_history_entry_set_enable_completion (GeditHi/
+gedit_history_entry_set_history_length	gedit-history-entry.c	/^gedit_history_entry_set_history_length (GeditHisto/
+gedit_invalid_character_info_bar_new	gedit-io-error-info-bar.c	/^gedit_invalid_character_info_bar_new (GFile *locat/
+gedit_io_loading_error_info_bar_new	gedit-io-error-info-bar.c	/^gedit_io_loading_error_info_bar_new (GFile        /
+gedit_menu_extension_append_menu_item	gedit-menu-extension.c	/^gedit_menu_extension_append_menu_item (GeditMenuEx/
+gedit_menu_extension_class_init	gedit-menu-extension.c	/^gedit_menu_extension_class_init (GeditMenuExtensio/
+gedit_menu_extension_get_property	gedit-menu-extension.c	/^gedit_menu_extension_get_property (GObject    *obj/
+gedit_menu_extension_init	gedit-menu-extension.c	/^gedit_menu_extension_init (GeditMenuExtension *men/
+gedit_menu_extension_new	gedit-menu-extension.c	/^gedit_menu_extension_new (GMenu *menu)$/
+gedit_menu_extension_prepend_menu_item	gedit-menu-extension.c	/^gedit_menu_extension_prepend_menu_item (GeditMenuE/
+gedit_menu_extension_remove_items	gedit-menu-extension.c	/^gedit_menu_extension_remove_items (GeditMenuExtens/
+gedit_menu_extension_set_property	gedit-menu-extension.c	/^gedit_menu_extension_set_property (GObject     *ob/
+gedit_menu_stack_switcher_class_init	gedit-menu-stack-switcher.c	/^gedit_menu_stack_switcher_class_init (GeditMenuSta/
+gedit_menu_stack_switcher_dispose	gedit-menu-stack-switcher.c	/^gedit_menu_stack_switcher_dispose (GObject *object/
+gedit_menu_stack_switcher_finalize	gedit-menu-stack-switcher.c	/^gedit_menu_stack_switcher_finalize (GObject *objec/
+gedit_menu_stack_switcher_get_property	gedit-menu-stack-switcher.c	/^gedit_menu_stack_switcher_get_property (GObject   /
+gedit_menu_stack_switcher_get_stack	gedit-menu-stack-switcher.c	/^gedit_menu_stack_switcher_get_stack (GeditMenuStac/
+gedit_menu_stack_switcher_new	gedit-menu-stack-switcher.c	/^gedit_menu_stack_switcher_new (void)$/
+gedit_menu_stack_switcher_set_property	gedit-menu-stack-switcher.c	/^gedit_menu_stack_switcher_set_property (GObject   /
+gedit_menu_stack_switcher_set_stack	gedit-menu-stack-switcher.c	/^gedit_menu_stack_switcher_set_stack (GeditMenuStac/
+gedit_message_bus_block	gedit-message-bus.c	/^gedit_message_bus_block (GeditMessageBus *bus,$/
+gedit_message_bus_block_by_func	gedit-message-bus.c	/^gedit_message_bus_block_by_func (GeditMessageBus  /
+gedit_message_bus_class_init	gedit-message-bus.c	/^gedit_message_bus_class_init (GeditMessageBusClass/
+gedit_message_bus_connect	gedit-message-bus.c	/^gedit_message_bus_connect (GeditMessageBus	*bus,$/
+gedit_message_bus_disconnect	gedit-message-bus.c	/^gedit_message_bus_disconnect (GeditMessageBus *bus/
+gedit_message_bus_disconnect_by_func	gedit-message-bus.c	/^gedit_message_bus_disconnect_by_func (GeditMessage/
+gedit_message_bus_dispatch_real	gedit-message-bus.c	/^gedit_message_bus_dispatch_real (GeditMessageBus */
+gedit_message_bus_finalize	gedit-message-bus.c	/^gedit_message_bus_finalize (GObject *object)$/
+gedit_message_bus_foreach	gedit-message-bus.c	/^gedit_message_bus_foreach (GeditMessageBus        /
+gedit_message_bus_get_default	gedit-message-bus.c	/^gedit_message_bus_get_default (void)$/
+gedit_message_bus_init	gedit-message-bus.c	/^gedit_message_bus_init (GeditMessageBus *self)$/
+gedit_message_bus_is_registered	gedit-message-bus.c	/^gedit_message_bus_is_registered (GeditMessageBus  /
+gedit_message_bus_lookup	gedit-message-bus.c	/^gedit_message_bus_lookup (GeditMessageBus *bus,$/
+gedit_message_bus_new	gedit-message-bus.c	/^gedit_message_bus_new (void)$/
+gedit_message_bus_register	gedit-message-bus.c	/^gedit_message_bus_register (GeditMessageBus *bus,$/
+gedit_message_bus_send	gedit-message-bus.c	/^gedit_message_bus_send (GeditMessageBus *bus,$/
+gedit_message_bus_send_message	gedit-message-bus.c	/^gedit_message_bus_send_message (GeditMessageBus *b/
+gedit_message_bus_send_message_sync	gedit-message-bus.c	/^gedit_message_bus_send_message_sync (GeditMessageB/
+gedit_message_bus_send_sync	gedit-message-bus.c	/^gedit_message_bus_send_sync (GeditMessageBus *bus,/
+gedit_message_bus_unblock	gedit-message-bus.c	/^gedit_message_bus_unblock (GeditMessageBus *bus,$/
+gedit_message_bus_unblock_by_func	gedit-message-bus.c	/^gedit_message_bus_unblock_by_func (GeditMessageBus/
+gedit_message_bus_unregister	gedit-message-bus.c	/^gedit_message_bus_unregister (GeditMessageBus  *bu/
+gedit_message_bus_unregister_all	gedit-message-bus.c	/^gedit_message_bus_unregister_all (GeditMessageBus /
+gedit_message_bus_unregister_real	gedit-message-bus.c	/^gedit_message_bus_unregister_real (GeditMessageBus/
+gedit_message_class_init	gedit-message.c	/^gedit_message_class_init (GeditMessageClass *klass/
+gedit_message_get_method	gedit-message.c	/^gedit_message_get_method (GeditMessage *message)$/
+gedit_message_get_object_path	gedit-message.c	/^gedit_message_get_object_path (GeditMessage *messa/
+gedit_message_get_property	gedit-message.c	/^gedit_message_get_property (GObject    *object,$/
+gedit_message_has	gedit-message.c	/^gedit_message_has (GeditMessage *message,$/
+gedit_message_init	gedit-message.c	/^gedit_message_init (GeditMessage *self)$/
+gedit_message_is_valid_object_path	gedit-message.c	/^gedit_message_is_valid_object_path (const gchar *o/
+gedit_message_set_property	gedit-message.c	/^gedit_message_set_property (GObject      *object,$/
+gedit_message_type_check	gedit-message.c	/^gedit_message_type_check (GType         gtype,$/
+gedit_message_type_has	gedit-message.c	/^gedit_message_type_has (GType         gtype,$/
+gedit_message_type_identifier	gedit-message.c	/^gedit_message_type_identifier (const gchar *object/
+gedit_multi_notebook_add_new_notebook	gedit-multi-notebook.c	/^gedit_multi_notebook_add_new_notebook (GeditMultiN/
+gedit_multi_notebook_add_new_notebook_with_tab	gedit-multi-notebook.c	/^gedit_multi_notebook_add_new_notebook_with_tab (Ge/
+gedit_multi_notebook_class_init	gedit-multi-notebook.c	/^gedit_multi_notebook_class_init (GeditMultiNoteboo/
+gedit_multi_notebook_close_all_tabs	gedit-multi-notebook.c	/^gedit_multi_notebook_close_all_tabs (GeditMultiNot/
+gedit_multi_notebook_close_tabs	gedit-multi-notebook.c	/^gedit_multi_notebook_close_tabs (GeditMultiNoteboo/
+gedit_multi_notebook_dispose	gedit-multi-notebook.c	/^gedit_multi_notebook_dispose (GObject *object)$/
+gedit_multi_notebook_finalize	gedit-multi-notebook.c	/^gedit_multi_notebook_finalize (GObject *object)$/
+gedit_multi_notebook_foreach_notebook	gedit-multi-notebook.c	/^gedit_multi_notebook_foreach_notebook (GeditMultiN/
+gedit_multi_notebook_foreach_tab	gedit-multi-notebook.c	/^gedit_multi_notebook_foreach_tab (GeditMultiNotebo/
+gedit_multi_notebook_get_active_notebook	gedit-multi-notebook.c	/^gedit_multi_notebook_get_active_notebook (GeditMul/
+gedit_multi_notebook_get_active_tab	gedit-multi-notebook.c	/^gedit_multi_notebook_get_active_tab (GeditMultiNot/
+gedit_multi_notebook_get_all_tabs	gedit-multi-notebook.c	/^gedit_multi_notebook_get_all_tabs (GeditMultiNoteb/
+gedit_multi_notebook_get_n_notebooks	gedit-multi-notebook.c	/^gedit_multi_notebook_get_n_notebooks (GeditMultiNo/
+gedit_multi_notebook_get_n_tabs	gedit-multi-notebook.c	/^gedit_multi_notebook_get_n_tabs (GeditMultiNoteboo/
+gedit_multi_notebook_get_notebook_for_tab	gedit-multi-notebook.c	/^gedit_multi_notebook_get_notebook_for_tab (GeditMu/
+gedit_multi_notebook_get_notebook_num	gedit-multi-notebook.c	/^gedit_multi_notebook_get_notebook_num (GeditMultiN/
+gedit_multi_notebook_get_nth_notebook	gedit-multi-notebook.c	/^gedit_multi_notebook_get_nth_notebook (GeditMultiN/
+gedit_multi_notebook_get_page_num	gedit-multi-notebook.c	/^gedit_multi_notebook_get_page_num (GeditMultiNoteb/
+gedit_multi_notebook_init	gedit-multi-notebook.c	/^gedit_multi_notebook_init (GeditMultiNotebook *mnb/
+gedit_multi_notebook_new	gedit-multi-notebook.c	/^gedit_multi_notebook_new ()$/
+gedit_multi_notebook_next_notebook	gedit-multi-notebook.c	/^gedit_multi_notebook_next_notebook (GeditMultiNote/
+gedit_multi_notebook_previous_notebook	gedit-multi-notebook.c	/^gedit_multi_notebook_previous_notebook (GeditMulti/
+gedit_multi_notebook_remove_active_notebook	gedit-multi-notebook.c	/^gedit_multi_notebook_remove_active_notebook (Gedit/
+gedit_multi_notebook_set_active_tab	gedit-multi-notebook.c	/^gedit_multi_notebook_set_active_tab (GeditMultiNot/
+gedit_multi_notebook_set_current_page	gedit-multi-notebook.c	/^gedit_multi_notebook_set_current_page (GeditMultiN/
+gedit_multi_notebook_set_property	gedit-multi-notebook.c	/^gedit_multi_notebook_set_property (GObject      *o/
+gedit_network_unavailable_info_bar_new	gedit-io-error-info-bar.c	/^gedit_network_unavailable_info_bar_new (GFile *loc/
+gedit_no_backup_saving_error_info_bar_new	gedit-io-error-info-bar.c	/^gedit_no_backup_saving_error_info_bar_new (GFile  /
+gedit_notebook_add_tab	gedit-notebook.c	/^gedit_notebook_add_tab (GeditNotebook *notebook,$/
+gedit_notebook_button_press_event	gedit-notebook.c	/^gedit_notebook_button_press_event (GtkWidget      /
+gedit_notebook_change_current_page	gedit-notebook.c	/^gedit_notebook_change_current_page (GtkNotebook *n/
+gedit_notebook_change_to_page	gedit-notebook.c	/^gedit_notebook_change_to_page (GeditNotebook *note/
+gedit_notebook_class_init	gedit-notebook.c	/^gedit_notebook_class_init (GeditNotebookClass *kla/
+gedit_notebook_finalize	gedit-notebook.c	/^gedit_notebook_finalize (GObject *object)$/
+gedit_notebook_grab_focus	gedit-notebook.c	/^gedit_notebook_grab_focus (GtkWidget *widget)$/
+gedit_notebook_init	gedit-notebook.c	/^gedit_notebook_init (GeditNotebook *notebook)$/
+gedit_notebook_move_tab	gedit-notebook.c	/^gedit_notebook_move_tab (GeditNotebook *src,$/
+gedit_notebook_new	gedit-notebook.c	/^gedit_notebook_new (void)$/
+gedit_notebook_page_added	gedit-notebook.c	/^gedit_notebook_page_added (GtkNotebook *notebook,$/
+gedit_notebook_page_removed	gedit-notebook.c	/^gedit_notebook_page_removed (GtkNotebook *notebook/
+gedit_notebook_popup_menu_class_init	gedit-notebook-popup-menu.c	/^gedit_notebook_popup_menu_class_init (GeditNoteboo/
+gedit_notebook_popup_menu_constructed	gedit-notebook-popup-menu.c	/^gedit_notebook_popup_menu_constructed (GObject *ob/
+gedit_notebook_popup_menu_get_property	gedit-notebook-popup-menu.c	/^gedit_notebook_popup_menu_get_property (GObject   /
+gedit_notebook_popup_menu_init	gedit-notebook-popup-menu.c	/^gedit_notebook_popup_menu_init (GeditNotebookPopup/
+gedit_notebook_popup_menu_new	gedit-notebook-popup-menu.c	/^gedit_notebook_popup_menu_new (GeditWindow *window/
+gedit_notebook_remove	gedit-notebook.c	/^gedit_notebook_remove (GtkContainer *container,$/
+gedit_notebook_remove_all_tabs	gedit-notebook.c	/^gedit_notebook_remove_all_tabs (GeditNotebook *not/
+gedit_notebook_stack_switcher_class_init	gedit-notebook-stack-switcher.c	/^gedit_notebook_stack_switcher_class_init (GeditNot/
+gedit_notebook_stack_switcher_dispose	gedit-notebook-stack-switcher.c	/^gedit_notebook_stack_switcher_dispose (GObject *ob/
+gedit_notebook_stack_switcher_get_property	gedit-notebook-stack-switcher.c	/^gedit_notebook_stack_switcher_get_property (GObjec/
+gedit_notebook_stack_switcher_get_stack	gedit-notebook-stack-switcher.c	/^gedit_notebook_stack_switcher_get_stack (GeditNote/
+gedit_notebook_stack_switcher_new	gedit-notebook-stack-switcher.c	/^gedit_notebook_stack_switcher_new (void)$/
+gedit_notebook_stack_switcher_set_property	gedit-notebook-stack-switcher.c	/^gedit_notebook_stack_switcher_set_property (GObjec/
+gedit_notebook_stack_switcher_set_stack	gedit-notebook-stack-switcher.c	/^gedit_notebook_stack_switcher_set_stack (GeditNote/
+gedit_notebook_switch_page	gedit-notebook.c	/^gedit_notebook_switch_page (GtkNotebook *notebook,/
+gedit_pango_font_description_to_css	gedit-pango.c	/^gedit_pango_font_description_to_css (const PangoFo/
+gedit_plugins_engine_class_init	gedit-plugins-engine.c	/^gedit_plugins_engine_class_init (GeditPluginsEngin/
+gedit_plugins_engine_dispose	gedit-plugins-engine.c	/^gedit_plugins_engine_dispose (GObject *object)$/
+gedit_plugins_engine_get_default	gedit-plugins-engine.c	/^gedit_plugins_engine_get_default (void)$/
+gedit_preferences_dialog_class_init	gedit-preferences-dialog.c	/^gedit_preferences_dialog_class_init (GeditPreferen/
+gedit_preferences_dialog_close	gedit-preferences-dialog.c	/^gedit_preferences_dialog_close (GeditPreferencesDi/
+gedit_preferences_dialog_init	gedit-preferences-dialog.c	/^gedit_preferences_dialog_init (GeditPreferencesDia/
+gedit_print_job_cancel	gedit-print-job.c	/^gedit_print_job_cancel (GeditPrintJob *job)$/
+gedit_print_job_class_init	gedit-print-job.c	/^gedit_print_job_class_init (GeditPrintJobClass *kl/
+gedit_print_job_dispose	gedit-print-job.c	/^gedit_print_job_dispose (GObject *object)$/
+gedit_print_job_done	gedit-print-job.c	/^gedit_print_job_done (GeditPrintJob       *job,$/
+gedit_print_job_finalize	gedit-print-job.c	/^gedit_print_job_finalize (GObject *object)$/
+gedit_print_job_get_page_setup	gedit-print-job.c	/^gedit_print_job_get_page_setup (GeditPrintJob *job/
+gedit_print_job_get_print_settings	gedit-print-job.c	/^gedit_print_job_get_print_settings (GeditPrintJob /
+gedit_print_job_get_progress	gedit-print-job.c	/^gedit_print_job_get_progress (GeditPrintJob *job)$/
+gedit_print_job_get_status_string	gedit-print-job.c	/^gedit_print_job_get_status_string (GeditPrintJob */
+gedit_print_job_init	gedit-print-job.c	/^gedit_print_job_init (GeditPrintJob *job)$/
+gedit_print_job_new	gedit-print-job.c	/^gedit_print_job_new (GeditView *view)$/
+gedit_print_job_print	gedit-print-job.c	/^gedit_print_job_print (GeditPrintJob            *j/
+gedit_print_job_printing	gedit-print-job.c	/^gedit_print_job_printing (GeditPrintJob       *job/
+gedit_print_job_set_property	gedit-print-job.c	/^gedit_print_job_set_property (GObject      *object/
+gedit_print_job_show_preview	gedit-print-job.c	/^gedit_print_job_show_preview (GeditPrintJob *job,$/
+gedit_print_preview_class_init	gedit-print-preview.c	/^gedit_print_preview_class_init (GeditPrintPreviewC/
+gedit_print_preview_grab_focus	gedit-print-preview.c	/^gedit_print_preview_grab_focus (GtkWidget *widget)/
+gedit_print_preview_init	gedit-print-preview.c	/^gedit_print_preview_init (GeditPrintPreview *previ/
+gedit_print_preview_new	gedit-print-preview.c	/^gedit_print_preview_new (GtkPrintOperation        /
+gedit_progress_info_bar_class_init	gedit-progress-info-bar.c	/^gedit_progress_info_bar_class_init (GeditProgressI/
+gedit_progress_info_bar_init	gedit-progress-info-bar.c	/^gedit_progress_info_bar_init (GeditProgressInfoBar/
+gedit_progress_info_bar_new	gedit-progress-info-bar.c	/^gedit_progress_info_bar_new (const gchar *icon_nam/
+gedit_progress_info_bar_pulse	gedit-progress-info-bar.c	/^gedit_progress_info_bar_pulse (GeditProgressInfoBa/
+gedit_progress_info_bar_set_fraction	gedit-progress-info-bar.c	/^gedit_progress_info_bar_set_fraction (GeditProgres/
+gedit_progress_info_bar_set_icon_name	gedit-progress-info-bar.c	/^gedit_progress_info_bar_set_icon_name (GeditProgre/
+gedit_progress_info_bar_set_markup	gedit-progress-info-bar.c	/^gedit_progress_info_bar_set_markup (GeditProgressI/
+gedit_progress_info_bar_set_property	gedit-progress-info-bar.c	/^gedit_progress_info_bar_set_property (GObject     /
+gedit_progress_info_bar_set_text	gedit-progress-info-bar.c	/^gedit_progress_info_bar_set_text (GeditProgressInf/
+gedit_recent_add_document	gedit-recent.c	/^gedit_recent_add_document (GeditDocument *document/
+gedit_recent_configuration_destroy	gedit-recent.c	/^gedit_recent_configuration_destroy (GeditRecentCon/
+gedit_recent_configuration_init_default	gedit-recent.c	/^gedit_recent_configuration_init_default (GeditRece/
+gedit_recent_get_items	gedit-recent.c	/^gedit_recent_get_items (GeditRecentConfiguration */
+gedit_recent_remove_if_local	gedit-recent.c	/^gedit_recent_remove_if_local (GFile *location)$/
+gedit_replace_dialog_class_init	gedit-replace-dialog.c	/^gedit_replace_dialog_class_init (GeditReplaceDialo/
+gedit_replace_dialog_delete_event	gedit-replace-dialog.c	/^gedit_replace_dialog_delete_event (GtkWidget   *wi/
+gedit_replace_dialog_dispose	gedit-replace-dialog.c	/^gedit_replace_dialog_dispose (GObject *object)$/
+gedit_replace_dialog_get_backwards	gedit-replace-dialog.c	/^gedit_replace_dialog_get_backwards (GeditReplaceDi/
+gedit_replace_dialog_get_replace_text	gedit-replace-dialog.c	/^gedit_replace_dialog_get_replace_text (GeditReplac/
+gedit_replace_dialog_get_search_text	gedit-replace-dialog.c	/^gedit_replace_dialog_get_search_text (GeditReplace/
+gedit_replace_dialog_init	gedit-replace-dialog.c	/^gedit_replace_dialog_init (GeditReplaceDialog *dlg/
+gedit_replace_dialog_new	gedit-replace-dialog.c	/^gedit_replace_dialog_new (GeditWindow *window)$/
+gedit_replace_dialog_present_with_time	gedit-replace-dialog.c	/^gedit_replace_dialog_present_with_time (GeditRepla/
+gedit_replace_dialog_set_replace_error	gedit-replace-dialog.c	/^gedit_replace_dialog_set_replace_error (GeditRepla/
+gedit_settings_class_init	gedit-settings.c	/^gedit_settings_class_init (GeditSettingsClass *kla/
+gedit_settings_dispose	gedit-settings.c	/^gedit_settings_dispose (GObject *object)$/
+gedit_settings_get_candidate_encodings	gedit-settings.c	/^gedit_settings_get_candidate_encodings (gboolean */
+gedit_settings_get_list	gedit-settings.c	/^gedit_settings_get_list (GSettings   *settings,$/
+gedit_settings_get_lockdown	gedit-settings.c	/^gedit_settings_get_lockdown (GeditSettings *gs)$/
+gedit_settings_get_system_font	gedit-settings.c	/^gedit_settings_get_system_font (GeditSettings *gs)/
+gedit_settings_init	gedit-settings.c	/^gedit_settings_init (GeditSettings *gs)$/
+gedit_settings_new	gedit-settings.c	/^gedit_settings_new ()$/
+gedit_settings_set_list	gedit-settings.c	/^gedit_settings_set_list (GSettings    *settings,$/
+gedit_show_preferences_dialog	gedit-preferences-dialog.c	/^gedit_show_preferences_dialog (GeditWindow *parent/
+gedit_status_menu_button_class_init	gedit-status-menu-button.c	/^gedit_status_menu_button_class_init (GeditStatusMe/
+gedit_status_menu_button_get_label	gedit-status-menu-button.c	/^gedit_status_menu_button_get_label (GeditStatusMen/
+gedit_status_menu_button_init	gedit-status-menu-button.c	/^gedit_status_menu_button_init (GeditStatusMenuButt/
+gedit_status_menu_button_new	gedit-status-menu-button.c	/^gedit_status_menu_button_new (void)$/
+gedit_status_menu_button_set_label	gedit-status-menu-button.c	/^gedit_status_menu_button_set_label (GeditStatusMen/
+gedit_status_menu_button_set_property	gedit-status-menu-button.c	/^gedit_status_menu_button_set_property (GObject    /
+gedit_statusbar_class_init	gedit-statusbar.c	/^gedit_statusbar_class_init (GeditStatusbarClass *k/
+gedit_statusbar_clear_overwrite	gedit-statusbar.c	/^gedit_statusbar_clear_overwrite (GeditStatusbar *s/
+gedit_statusbar_dispose	gedit-statusbar.c	/^gedit_statusbar_dispose (GObject *object)$/
+gedit_statusbar_flash_message	gedit-statusbar.c	/^gedit_statusbar_flash_message (GeditStatusbar *sta/
+gedit_statusbar_init	gedit-statusbar.c	/^gedit_statusbar_init (GeditStatusbar *statusbar)$/
+gedit_statusbar_new	gedit-statusbar.c	/^gedit_statusbar_new (void)$/
+gedit_statusbar_set_overwrite	gedit-statusbar.c	/^gedit_statusbar_set_overwrite (GeditStatusbar *sta/
+gedit_statusbar_set_window_state	gedit-statusbar.c	/^gedit_statusbar_set_window_state (GeditStatusbar  /
+gedit_tab_auto_save	gedit-tab.c	/^gedit_tab_auto_save (GeditTab *tab)$/
+gedit_tab_class_init	gedit-tab.c	/^gedit_tab_class_init (GeditTabClass *klass)$/
+gedit_tab_dispose	gedit-tab.c	/^gedit_tab_dispose (GObject *object)$/
+gedit_tab_drop_uris	gedit-tab.c	/^gedit_tab_drop_uris (GeditTab  *tab,$/
+gedit_tab_get_auto_save_enabled	gedit-tab.c	/^gedit_tab_get_auto_save_enabled	(GeditTab *tab)$/
+gedit_tab_get_auto_save_interval	gedit-tab.c	/^gedit_tab_get_auto_save_interval (GeditTab *tab)$/
+gedit_tab_get_document	gedit-tab.c	/^gedit_tab_get_document (GeditTab *tab)$/
+gedit_tab_get_from_document	gedit-tab.c	/^gedit_tab_get_from_document (GeditDocument *doc)$/
+gedit_tab_get_property	gedit-tab.c	/^gedit_tab_get_property (GObject    *object,$/
+gedit_tab_get_state	gedit-tab.c	/^gedit_tab_get_state (GeditTab *tab)$/
+gedit_tab_get_view	gedit-tab.c	/^gedit_tab_get_view (GeditTab *tab)$/
+gedit_tab_grab_focus	gedit-tab.c	/^gedit_tab_grab_focus (GtkWidget *widget)$/
+gedit_tab_init	gedit-tab.c	/^gedit_tab_init (GeditTab *tab)$/
+gedit_tab_label_class_init	gedit-tab-label.c	/^gedit_tab_label_class_init (GeditTabLabelClass *kl/
+gedit_tab_label_close_clicked	gedit-tab-label.c	/^gedit_tab_label_close_clicked (GeditTabLabel *tab_/
+gedit_tab_label_constructed	gedit-tab-label.c	/^gedit_tab_label_constructed (GObject *object)$/
+gedit_tab_label_get_property	gedit-tab-label.c	/^gedit_tab_label_get_property (GObject    *object,$/
+gedit_tab_label_get_tab	gedit-tab-label.c	/^gedit_tab_label_get_tab (GeditTabLabel *tab_label)/
+gedit_tab_label_init	gedit-tab-label.c	/^gedit_tab_label_init (GeditTabLabel *tab_label)$/
+gedit_tab_label_new	gedit-tab-label.c	/^gedit_tab_label_new (GeditTab *tab)$/
+gedit_tab_set_auto_save_enabled	gedit-tab.c	/^gedit_tab_set_auto_save_enabled	(GeditTab *tab,$/
+gedit_tab_set_auto_save_interval	gedit-tab.c	/^gedit_tab_set_auto_save_interval (GeditTab *tab,$/
+gedit_tab_set_info_bar	gedit-tab.c	/^gedit_tab_set_info_bar (GeditTab  *tab,$/
+gedit_tab_set_property	gedit-tab.c	/^gedit_tab_set_property (GObject      *object,$/
+gedit_tab_set_state	gedit-tab.c	/^gedit_tab_set_state (GeditTab      *tab,$/
+gedit_unrecoverable_reverting_error_info_bar_new	gedit-io-error-info-bar.c	/^gedit_unrecoverable_reverting_error_info_bar_new (/
+gedit_unrecoverable_saving_error_info_bar_new	gedit-io-error-info-bar.c	/^gedit_unrecoverable_saving_error_info_bar_new (GFi/
+gedit_utils_basename_for_display	gedit-utils.c	/^gedit_utils_basename_for_display (GFile *location)/
+gedit_utils_decode_uri	gedit-utils.c	/^gedit_utils_decode_uri (const gchar  *uri,$/
+gedit_utils_drop_get_uris	gedit-utils.c	/^gedit_utils_drop_get_uris (GtkSelectionData *selec/
+gedit_utils_get_compression_type_from_content_type	gedit-utils.c	/^gedit_utils_get_compression_type_from_content_type/
+gedit_utils_get_current_viewport	gedit-utils.c	/^gedit_utils_get_current_viewport (GdkScreen    *sc/
+gedit_utils_get_current_workspace	gedit-utils.c	/^gedit_utils_get_current_workspace (GdkScreen *scre/
+gedit_utils_get_window_workspace	gedit-utils.c	/^gedit_utils_get_window_workspace (GtkWindow *gtkwi/
+gedit_utils_is_valid_location	gedit-utils.c	/^gedit_utils_is_valid_location (GFile *location)$/
+gedit_utils_location_get_dirname_for_display	gedit-utils.c	/^gedit_utils_location_get_dirname_for_display (GFil/
+gedit_utils_make_valid_utf8	gedit-utils.c	/^gedit_utils_make_valid_utf8 (const char *name)$/
+gedit_utils_menu_position_under_tree_view	gedit-utils.c	/^gedit_utils_menu_position_under_tree_view (GtkTree/
+gedit_utils_menu_position_under_widget	gedit-utils.c	/^gedit_utils_menu_position_under_widget (GtkMenu  */
+gedit_utils_newline_type_to_string	gedit-utils.c	/^gedit_utils_newline_type_to_string (GtkSourceNewli/
+gedit_utils_replace_home_dir_with_tilde	gedit-utils.c	/^gedit_utils_replace_home_dir_with_tilde (const gch/
+gedit_utils_set_atk_name_description	gedit-utils.c	/^gedit_utils_set_atk_name_description (GtkWidget   /
+gedit_utils_set_atk_relation	gedit-utils.c	/^gedit_utils_set_atk_relation (GtkWidget       *obj/
+gedit_utils_set_direct_save_filename	gedit-utils.c	/^gedit_utils_set_direct_save_filename (GdkDragConte/
+gedit_utils_str_end_truncate	gedit-utils.c	/^gedit_utils_str_end_truncate (const gchar *string,/
+gedit_utils_str_middle_truncate	gedit-utils.c	/^gedit_utils_str_middle_truncate (const gchar *stri/
+gedit_view_activatable_activate	gedit-view-activatable.c	/^gedit_view_activatable_activate (GeditViewActivata/
+gedit_view_activatable_deactivate	gedit-view-activatable.c	/^gedit_view_activatable_deactivate (GeditViewActiva/
+gedit_view_button_press_event	gedit-view.c	/^gedit_view_button_press_event (GtkWidget      *wid/
+gedit_view_class_init	gedit-view.c	/^gedit_view_class_init (GeditViewClass *klass)$/
+gedit_view_constructed	gedit-view.c	/^gedit_view_constructed (GObject *object)$/
+gedit_view_copy_clipboard	gedit-view.c	/^gedit_view_copy_clipboard (GeditView *view)$/
+gedit_view_create_buffer	gedit-view.c	/^gedit_view_create_buffer (GtkTextView *text_view)$/
+gedit_view_cut_clipboard	gedit-view.c	/^gedit_view_cut_clipboard (GeditView *view)$/
+gedit_view_delete_from_cursor	gedit-view.c	/^gedit_view_delete_from_cursor (GtkTextView   *text/
+gedit_view_delete_selection	gedit-view.c	/^gedit_view_delete_selection (GeditView *view)$/
+gedit_view_dispose	gedit-view.c	/^gedit_view_dispose (GObject *object)$/
+gedit_view_drag_data_received	gedit-view.c	/^gedit_view_drag_data_received (GtkWidget        *w/
+gedit_view_drag_drop	gedit-view.c	/^gedit_view_drag_drop (GtkWidget      *widget,$/
+gedit_view_drag_motion	gedit-view.c	/^gedit_view_drag_motion (GtkWidget      *widget,$/
+gedit_view_focus_out	gedit-view.c	/^gedit_view_focus_out (GtkWidget     *widget,$/
+gedit_view_frame_class_init	gedit-view-frame.c	/^gedit_view_frame_class_init (GeditViewFrameClass */
+gedit_view_frame_clear_search	gedit-view-frame.c	/^gedit_view_frame_clear_search (GeditViewFrame *fra/
+gedit_view_frame_dispose	gedit-view-frame.c	/^gedit_view_frame_dispose (GObject *object)$/
+gedit_view_frame_finalize	gedit-view-frame.c	/^gedit_view_frame_finalize (GObject *object)$/
+gedit_view_frame_get_view	gedit-view-frame.c	/^gedit_view_frame_get_view (GeditViewFrame *frame)$/
+gedit_view_frame_init	gedit-view-frame.c	/^gedit_view_frame_init (GeditViewFrame *frame)$/
+gedit_view_frame_new	gedit-view-frame.c	/^gedit_view_frame_new (void)$/
+gedit_view_frame_popup_goto_line	gedit-view-frame.c	/^gedit_view_frame_popup_goto_line (GeditViewFrame */
+gedit_view_frame_popup_search	gedit-view-frame.c	/^gedit_view_frame_popup_search (GeditViewFrame *fra/
+gedit_view_init	gedit-view.c	/^gedit_view_init (GeditView *view)$/
+gedit_view_new	gedit-view.c	/^gedit_view_new (GeditDocument *doc)$/
+gedit_view_paste_clipboard	gedit-view.c	/^gedit_view_paste_clipboard (GeditView *view)$/
+gedit_view_realize	gedit-view.c	/^gedit_view_realize (GtkWidget *widget)$/
+gedit_view_scroll_to_cursor	gedit-view.c	/^gedit_view_scroll_to_cursor (GeditView *view)$/
+gedit_view_select_all	gedit-view.c	/^gedit_view_select_all (GeditView *view)$/
+gedit_view_set_font	gedit-view.c	/^gedit_view_set_font (GeditView   *view,$/
+gedit_view_unrealize	gedit-view.c	/^gedit_view_unrealize (GtkWidget *widget)$/
+gedit_w32_load_private_dll	gedit.c	/^gedit_w32_load_private_dll (void)$/
+gedit_w32_unload_private_dll	gedit.c	/^gedit_w32_unload_private_dll (void)$/
+gedit_warning	gedit-utils.c	/^gedit_warning (GtkWindow *parent, const gchar *for/
+gedit_window_activatable_activate	gedit-window-activatable.c	/^gedit_window_activatable_activate (GeditWindowActi/
+gedit_window_activatable_deactivate	gedit-window-activatable.c	/^gedit_window_activatable_deactivate (GeditWindowAc/
+gedit_window_activatable_update_state	gedit-window-activatable.c	/^gedit_window_activatable_update_state (GeditWindow/
+gedit_window_class_init	gedit-window.c	/^gedit_window_class_init (GeditWindowClass *klass)$/
+gedit_window_close_all_tabs	gedit-window.c	/^gedit_window_close_all_tabs (GeditWindow *window)$/
+gedit_window_close_tab	gedit-window.c	/^gedit_window_close_tab (GeditWindow *window,$/
+gedit_window_close_tabs	gedit-window.c	/^gedit_window_close_tabs (GeditWindow *window,$/
+gedit_window_configure_event	gedit-window.c	/^gedit_window_configure_event (GtkWidget         *w/
+gedit_window_create_tab	gedit-window.c	/^gedit_window_create_tab (GeditWindow *window,$/
+gedit_window_create_tab_from_location	gedit-window.c	/^gedit_window_create_tab_from_location (GeditWindow/
+gedit_window_create_tab_from_stream	gedit-window.c	/^gedit_window_create_tab_from_stream (GeditWindow  /
+gedit_window_dispose	gedit-window.c	/^gedit_window_dispose (GObject *object)$/
+gedit_window_finalize	gedit-window.c	/^gedit_window_finalize (GObject *object)$/
+gedit_window_get_active_document	gedit-window.c	/^gedit_window_get_active_document (GeditWindow *win/
+gedit_window_get_active_tab	gedit-window.c	/^gedit_window_get_active_tab (GeditWindow *window)$/
+gedit_window_get_active_view	gedit-window.c	/^gedit_window_get_active_view (GeditWindow *window)/
+gedit_window_get_bottom_panel	gedit-window.c	/^gedit_window_get_bottom_panel (GeditWindow *window/
+gedit_window_get_documents	gedit-window.c	/^gedit_window_get_documents (GeditWindow *window)$/
+gedit_window_get_group	gedit-window.c	/^gedit_window_get_group (GeditWindow *window)$/
+gedit_window_get_message_bus	gedit-window.c	/^gedit_window_get_message_bus (GeditWindow *window)/
+gedit_window_get_side_panel	gedit-window.c	/^gedit_window_get_side_panel (GeditWindow *window)$/
+gedit_window_get_state	gedit-window.c	/^gedit_window_get_state (GeditWindow *window)$/
+gedit_window_get_statusbar	gedit-window.c	/^gedit_window_get_statusbar (GeditWindow *window)$/
+gedit_window_get_tab_from_location	gedit-window.c	/^gedit_window_get_tab_from_location (GeditWindow *w/
+gedit_window_get_unsaved_documents	gedit-window.c	/^gedit_window_get_unsaved_documents (GeditWindow *w/
+gedit_window_get_views	gedit-window.c	/^gedit_window_get_views (GeditWindow *window)$/
+gedit_window_init	gedit-window.c	/^gedit_window_init (GeditWindow *window)$/
+gedit_window_key_press_event	gedit-window.c	/^gedit_window_key_press_event (GtkWidget   *widget,/
+gedit_window_set_active_tab	gedit-window.c	/^gedit_window_set_active_tab (GeditWindow *window,$/
+gedit_window_tab_removed	gedit-window.c	/^gedit_window_tab_removed (GeditWindow *window,$/
+gedit_window_window_state_event	gedit-window.c	/^gedit_window_window_state_event (GtkWidget        /
+get_active_document	gedit-replace-dialog.c	/^get_active_document (GeditReplaceDialog *dialog)$/
+get_active_window	gedit-app.c	/^get_active_window (GtkApplication *app)$/
+get_adjustments	gedit-print-preview.c	/^get_adjustments (GeditPrintPreview  *preview,$/
+get_candidate_encodings	gedit-tab.c	/^get_candidate_encodings (GeditTab *tab)$/
+get_chosen_encodings_list	gedit-encodings-dialog.c	/^get_chosen_encodings_list (GeditEncodingsDialog *d/
+get_compression_type_from_file	gedit-commands-file.c	/^get_compression_type_from_file (GFile *file)$/
+get_content_type_from_content	gedit-document.c	/^get_content_type_from_content (GeditDocument *doc)/
+get_default_color_scheme	gedit-preferences-dialog.c	/^get_default_color_scheme (GeditPreferencesDialog */
+get_default_content_type	gedit-document.c	/^get_default_content_type (void)$/
+get_default_style_scheme	gedit-document.c	/^get_default_style_scheme (GSettings *editor_settin/
+get_dest_position_for_tab	gedit-documents-panel.c	/^get_dest_position_for_tab (GeditDocumentsPanel *pa/
+get_direct_save_filename	gedit-utils.c	/^get_direct_save_filename (GdkDragContext *context)/
+get_drop_window	gedit-window.c	/^get_drop_window (GtkWidget *widget)$/
+get_first_notebook_found	gedit-documents-panel.c	/^get_first_notebook_found (GeditDocumentsPanel *pan/
+get_first_page_displayed	gedit-print-preview.c	/^get_first_page_displayed (GeditPrintPreview *previ/
+get_gedit_window	gedit-replace-dialog.c	/^get_gedit_window (GeditReplaceDialog *dialog)$/
+get_history_items	gedit-history-entry.c	/^get_history_items (GeditHistoryEntry *entry)$/
+get_history_store	gedit-history-entry.c	/^get_history_store (GeditHistoryEntry *entry)$/
+get_initial_save_flags	gedit-tab.c	/^get_initial_save_flags (GeditTab *tab,$/
+get_iter_at_start_mark	gedit-view-frame.c	/^get_iter_at_start_mark (GeditViewFrame *frame,$/
+get_language_string	gedit-document.c	/^get_language_string (GeditDocument *doc)$/
+get_line_column_position	gedit-app.c	/^get_line_column_position (const gchar *arg,$/
+get_menu_model	gedit-app.c	/^get_menu_model (GeditApp   *app,$/
+get_n_pages	gedit-print-preview.c	/^get_n_pages (GeditPrintPreview *preview)$/
+get_nb_visible_rows	gedit-documents-panel.c	/^get_nb_visible_rows (GeditDocumentsPanel *panel)$/
+get_network_available	gedit-app.c	/^get_network_available (GNetworkMonitor *monitor,$/
+get_notebook_and_position_from_document_row	gedit-documents-panel.c	/^get_notebook_and_position_from_document_row (Gedit/
+get_overwrite_mode_length	gedit-statusbar.c	/^get_overwrite_mode_length (void)$/
+get_page_at_coords	gedit-print-preview.c	/^get_page_at_coords (GeditPrintPreview *preview,$/
+get_page_setup	gedit-tab.c	/^get_page_setup (GeditTab *tab)$/
+get_page_setup_file	gedit-app.c	/^get_page_setup_file (void)$/
+get_paper_height	gedit-print-preview.c	/^get_paper_height (GeditPrintPreview *preview)$/
+get_paper_width	gedit-print-preview.c	/^get_paper_width (GeditPrintPreview *preview)$/
+get_print_settings	gedit-tab.c	/^get_print_settings (GeditTab *tab)$/
+get_print_settings_file	gedit-app.c	/^get_print_settings_file (void)$/
+get_row_from_widget	gedit-documents-panel.c	/^get_row_from_widget (GeditDocumentsPanel *panel,$/
+get_row_visible_index	gedit-documents-panel.c	/^get_row_visible_index (GeditDocumentsPanel *panel,/
+get_screen_dpi	gedit-print-preview.c	/^get_screen_dpi (GeditPrintPreview *preview)$/
+get_search_context	gedit-view-frame.c	/^get_search_context (GeditViewFrame *frame)$/
+get_selected_text	gedit-replace-dialog.c	/^get_selected_text (GtkTextBuffer  *doc,$/
+get_tab_from_file	gedit-commands-file.c	/^get_tab_from_file (GList *docs,$/
+get_text_secondary_label	gedit-close-confirmation-dialog.c	/^get_text_secondary_label (GeditDocument *doc)$/
+get_tile_size	gedit-print-preview.c	/^get_tile_size (GeditPrintPreview *preview,$/
+goto_line	gedit-tab.c	/^goto_line (GTask *loading_task)$/
+goto_page	gedit-print-preview.c	/^goto_page (GeditPrintPreview *preview,$/
+grid_checkbutton_toggled	gedit-preferences-dialog.c	/^grid_checkbutton_toggled (GtkToggleButton        */
+group_row_refresh_visibility	gedit-documents-panel.c	/^group_row_refresh_visibility (GeditDocumentsPanel /
+group_row_set_notebook_name	gedit-documents-panel.c	/^group_row_set_notebook_name (GtkWidget *row)$/
+group_row_update_names	gedit-documents-panel.c	/^group_row_update_names (GeditDocumentsPanel *panel/
+guess_language	gedit-document.c	/^guess_language (GeditDocument *doc)$/
+has_replace_error	gedit-replace-dialog.c	/^has_replace_error (GeditReplaceDialog *dialog)$/
+has_search_error	gedit-replace-dialog.c	/^has_search_error (GeditReplaceDialog *dialog)$/
+has_valid_scheme	gedit-utils.c	/^has_valid_scheme (const gchar *uri)$/
+help_activated	gedit-app.c	/^help_activated (GSimpleAction *action,$/
+hide_cb	gedit-replace-dialog.c	/^hide_cb (GeditReplaceDialog *dialog)$/
+hide_search_widget	gedit-view-frame.c	/^hide_search_widget (GeditViewFrame *frame,$/
+hpaned_restore_position	gedit-window.c	/^hpaned_restore_position (GtkWidget   *widget,$/
+idle_dispatch	gedit-message-bus.c	/^idle_dispatch (GeditMessageBus *bus)$/
+info_bar_set_progress	gedit-tab.c	/^info_bar_set_progress (GeditTab *tab,$/
+initWithApp	gedit-app-osx.m	/^- (id)initWithApp:(GeditAppOSX *)theApp;$/
+init_amtk_application_window	gedit-window.c	/^init_amtk_application_window (GeditWindow *gedit_w/
+init_last_page_label	gedit-print-preview.c	/^init_last_page_label (GeditPrintPreview *preview)$/
+init_liststores	gedit-encodings-dialog.c	/^init_liststores (GeditEncodingsDialog *dialog,$/
+init_open_buttons	gedit-window.c	/^init_open_buttons (GeditWindow *window)$/
+init_panels_visibility	gedit-window.c	/^init_panels_visibility (GeditWindow *window)$/
+init_search_entry	gedit-view-frame.c	/^init_search_entry (GeditViewFrame *frame)$/
+init_toolbar_available	gedit-encodings-dialog.c	/^init_toolbar_available (GeditEncodingsDialog *dial/
+init_toolbar_chosen	gedit-encodings-dialog.c	/^init_toolbar_chosen (GeditEncodingsDialog *dialog)/
+insert_history_item	gedit-history-entry.c	/^insert_history_item (GeditHistoryEntry *entry,$/
+insert_row	gedit-documents-panel.c	/^insert_row (GeditDocumentsPanel *panel,$/
+install_auto_save_timeout	gedit-tab.c	/^install_auto_save_timeout (GeditTab *tab)$/
+install_idle_update_sensitivity	gedit-replace-dialog.c	/^install_idle_update_sensitivity (GeditReplaceDialo/
+install_scheme_clicked	gedit-preferences-dialog.c	/^install_scheme_clicked (GtkButton              *bu/
+install_style_scheme	gedit-preferences-dialog.c	/^install_style_scheme (const gchar *fname)$/
+install_update_entry_tag_idle	gedit-view-frame.c	/^install_update_entry_tag_idle (GeditViewFrame *fra/
+invalid_character_info_bar_response	gedit-tab.c	/^invalid_character_info_bar_response (GtkWidget *in/
+io_loading_error_info_bar_response	gedit-tab.c	/^io_loading_error_info_bar_response (GtkWidget *inf/
+is_duplicated_file	gedit-commands-file.c	/^is_duplicated_file (GSList *files,$/
+is_gio_error	gedit-io-error-info-bar.c	/^is_gio_error (const GError *error,$/
+is_in_viewport	gedit-app.c	/^is_in_viewport (GtkWindow    *window,$/
+is_recoverable_error	gedit-io-error-info-bar.c	/^is_recoverable_error (const GError *error)$/
+is_valid_scheme_character	gedit-utils.c	/^is_valid_scheme_character (gchar c)$/
+keyboard_shortcuts_activated	gedit-app.c	/^keyboard_shortcuts_activated (GSimpleAction *actio/
+language_changed	gedit-window.c	/^language_changed (GObject     *object,$/
+last_search_data_free	gedit-commands-search.c	/^last_search_data_free (LastSearchData *data)$/
+last_search_data_restore_position	gedit-commands-search.c	/^last_search_data_restore_position (GeditReplaceDia/
+last_search_data_store_position	gedit-commands-search.c	/^last_search_data_store_position (GeditReplaceDialo/
+launch_loader	gedit-tab.c	/^launch_loader (GTask                   *loading_ta/
+launch_saver	gedit-tab.c	/^launch_saver (GTask *saving_task)$/
+listbox_search_function	gedit-documents-panel.c	/^listbox_search_function (gconstpointer row,$/
+listbox_selection_changed	gedit-documents-panel.c	/^listbox_selection_changed (GtkListBox          *li/
+listener_free	gedit-message-bus.c	/^listener_free (Listener *listener)$/
+load_accels	gedit-app.c	/^load_accels (void)$/
+load_async	gedit-tab.c	/^load_async (GeditTab                *tab,$/
+load_cancelled	gedit-tab.c	/^load_cancelled (GtkWidget *bar,$/
+load_cb	gedit-tab.c	/^load_cb (GtkSourceFileLoader *loader,$/
+load_css_from_resource	gedit-app.c	/^load_css_from_resource (const gchar *filename,$/
+load_file_list	gedit-commands-file.c	/^load_file_list (GeditWindow             *window,$/
+load_finish	gedit-tab.c	/^load_finish (GeditTab     *tab,$/
+load_page_setup	gedit-app.c	/^load_page_setup (GeditApp *app)$/
+load_print_settings	gedit-app.c	/^load_print_settings (GeditApp *app)$/
+load_stream_async	gedit-tab.c	/^load_stream_async (GeditTab                *tab,$/
+load_uris_from_drop	gedit-window.c	/^load_uris_from_drop (GeditWindow  *window,$/
+loaded_query_info_cb	gedit-document.c	/^loaded_query_info_cb (GFile         *location,$/
+loader_data_free	gedit-tab.c	/^loader_data_free (LoaderData *data)$/
+loader_data_new	gedit-tab.c	/^loader_data_new (void)$/
+loader_progress_cb	gedit-tab.c	/^loader_progress_cb (goffset  size,$/
+lookup	Gedit.py	/^        tp = self.lookup(object_path, method)$/
+lookup_message	gedit-message-bus.c	/^lookup_message (GeditMessageBus *bus,$/
+make_canonical_uri_from_shell_arg	gedit-utils.c	/^make_canonical_uri_from_shell_arg (const gchar *st/
+make_row_visible	gedit-documents-panel.c	/^make_row_visible (GeditDocumentsPanel *panel,$/
+mark_set_cb	gedit-replace-dialog.c	/^mark_set_cb (GtkTextBuffer      *buffer,$/
+message_free	gedit-message-bus.c	/^message_free (Message *message)$/
+message_identifier_equal	gedit-message-bus.c	/^message_identifier_equal (gconstpointer id1,$/
+message_identifier_free	gedit-message-bus.c	/^message_identifier_free (MessageIdentifier *identi/
+message_identifier_hash	gedit-message-bus.c	/^message_identifier_hash (gconstpointer id)$/
+message_new	gedit-message-bus.c	/^message_new (GeditMessageBus *bus,$/
+message_queue_free	gedit-message-bus.c	/^message_queue_free (GList *queue)$/
+move_selection	gedit-highlight-mode-selector.c	/^move_selection (GeditHighlightModeSelector *select/
+multi_notebook_notebook_removed	gedit-documents-panel.c	/^multi_notebook_notebook_removed (GeditMultiNoteboo/
+multi_notebook_tab_added	gedit-documents-panel.c	/^multi_notebook_tab_added (GeditMultiNotebook  *mnb/
+multi_notebook_tab_removed	gedit-documents-panel.c	/^multi_notebook_tab_removed (GeditMultiNotebook  *m/
+multi_notebook_tab_switched	gedit-documents-panel.c	/^multi_notebook_tab_switched (GeditMultiNotebook  */
+multi_notebook_tabs_reordered	gedit-documents-panel.c	/^multi_notebook_tabs_reordered (GeditMultiNotebook /
+multi_pages_button_clicked	gedit-print-preview.c	/^multi_pages_button_clicked (GtkWidget         *but/
+network_available_warning_info_bar_response	gedit-tab.c	/^network_available_warning_info_bar_response (GtkWi/
+new_document_activated	gedit-app.c	/^new_document_activated (GSimpleAction *action,$/
+new_window_activated	gedit-app.c	/^new_window_activated (GSimpleAction *action,$/
+newline_combo_append	gedit-file-chooser-dialog-gtk.c	/^newline_combo_append (GtkComboBox          *combo,/
+next_button_clicked	gedit-print-preview.c	/^next_button_clicked (GtkWidget         *button,$/
+no_backup_error_info_bar_response	gedit-tab.c	/^no_backup_error_info_bar_response (GtkWidget *info/
+notebook_create_window	gedit-multi-notebook.c	/^notebook_create_window (GeditNotebook      *notebo/
+notebook_get_unsaved_documents	gedit-commands-file.c	/^notebook_get_unsaved_documents (GeditNotebook *not/
+notebook_page_added	gedit-multi-notebook.c	/^notebook_page_added (GtkNotebook        *notebook,/
+notebook_page_removed	gedit-multi-notebook.c	/^notebook_page_removed (GtkNotebook        *noteboo/
+notebook_page_reordered	gedit-multi-notebook.c	/^notebook_page_reordered (GeditNotebook      *noteb/
+notebook_set_focus	gedit-multi-notebook.c	/^notebook_set_focus (GtkContainer       *container,/
+notebook_show_popup_menu	gedit-multi-notebook.c	/^notebook_show_popup_menu (GtkNotebook        *note/
+notebook_switch_page	gedit-multi-notebook.c	/^notebook_switch_page (GtkNotebook        *book,$/
+notebook_tab_close_request	gedit-multi-notebook.c	/^notebook_tab_close_request (GeditNotebook      *no/
+ns_url_to_g_file	gedit-file-chooser-dialog-osx.m	/^ns_url_to_g_file (NSURL *url)$/
+null_ptr	gedit-utils.c	/^null_ptr (gchar **ptr)$/
+on_1x1_clicked	gedit-print-preview.c	/^on_1x1_clicked (GtkMenuItem       *item,$/
+on_1x2_clicked	gedit-print-preview.c	/^on_1x2_clicked (GtkMenuItem       *item,$/
+on_auto_save_changed	gedit-settings.c	/^on_auto_save_changed (GSettings     *settings,$/
+on_auto_save_interval_changed	gedit-settings.c	/^on_auto_save_interval_changed (GSettings     *sett/
+on_button_clicked	gedit-menu-stack-switcher.c	/^on_button_clicked (GtkWidget              *widget,/
+on_child_changed	gedit-menu-stack-switcher.c	/^on_child_changed (GtkWidget              *widget,$/
+on_child_prop_changed	gedit-notebook-stack-switcher.c	/^on_child_prop_changed (GtkWidget                  /
+on_close_activate	gedit-notebook-popup-menu.c	/^on_close_activate (GSimpleAction *action,$/
+on_content_type_changed	gedit-document.c	/^on_content_type_changed (GeditDocument *doc,$/
+on_drop_uris	gedit-tab.c	/^on_drop_uris (GeditView  *view,$/
+on_editor_font_changed	gedit-settings.c	/^on_editor_font_changed (GSettings     *settings,$/
+on_entry_activate	gedit-highlight-mode-selector.c	/^on_entry_activate (GtkEntry                   *ent/
+on_entry_changed	gedit-highlight-mode-selector.c	/^on_entry_changed (GtkEntry                   *entr/
+on_entry_key_press_event	gedit-highlight-mode-selector.c	/^on_entry_key_press_event (GtkWidget               /
+on_fullscreen_eventbox_enter_notify_event	gedit-window.c	/^on_fullscreen_eventbox_enter_notify_event (GtkWidg/
+on_fullscreen_eventbox_leave_notify_event	gedit-window.c	/^on_fullscreen_eventbox_leave_notify_event (GtkWidg/
+on_fullscreen_toggle_button_toggled	gedit-window.c	/^on_fullscreen_toggle_button_toggled (GtkToggleButt/
+on_language_selected	gedit-commands-view.c	/^on_language_selected (GeditHighlightModeSelector */
+on_language_selector_shown	gedit-window.c	/^on_language_selector_shown (GeditHighlightModeSele/
+on_location_changed	gedit-document.c	/^on_location_changed (GtkSourceFile *file,$/
+on_lockdown_changed	gedit-settings.c	/^on_lockdown_changed (GSettings   *settings,$/
+on_move_left_activate	gedit-notebook-popup-menu.c	/^on_move_left_activate (GSimpleAction *action,$/
+on_move_right_activate	gedit-notebook-popup-menu.c	/^on_move_right_activate (GSimpleAction *action,$/
+on_move_to_new_tab_group_activate	gedit-notebook-popup-menu.c	/^on_move_to_new_tab_group_activate (GSimpleAction */
+on_move_to_new_window_activate	gedit-notebook-popup-menu.c	/^on_move_to_new_window_activate (GSimpleAction *act/
+on_notebook_changed	gedit-window.c	/^on_notebook_changed (GeditMultiNotebook *mnb,$/
+on_notebook_create_window	gedit-window.c	/^on_notebook_create_window (GeditMultiNotebook *mnb/
+on_notebook_removed	gedit-window.c	/^on_notebook_removed (GeditMultiNotebook *mnb,$/
+on_notebook_switch_page	gedit-notebook-stack-switcher.c	/^on_notebook_switch_page (GtkNotebook              /
+on_notify_buffer_cb	gedit-view.c	/^on_notify_buffer_cb (GeditView  *view,$/
+on_page_reordered	gedit-window.c	/^on_page_reordered (GeditMultiNotebook *multi,$/
+on_parent_destroyed	gedit-file-chooser-dialog-osx.m	/^on_parent_destroyed (GtkWindow                 *pa/
+on_position_updated	gedit-menu-stack-switcher.c	/^on_position_updated (GtkWidget        *widget,$/
+on_preview_layout_motion_notify	gedit-print-preview.c	/^on_preview_layout_motion_notify (GtkWidget        /
+on_row_activated	gedit-highlight-mode-selector.c	/^on_row_activated (GtkTreeView                *tree/
+on_scheme_changed	gedit-settings.c	/^on_scheme_changed (GSettings     *settings,$/
+on_show_popup_menu	gedit-window.c	/^on_show_popup_menu (GeditMultiNotebook *multi,$/
+on_side_panel_stack_children_number_changed	gedit-window.c	/^on_side_panel_stack_children_number_changed (GtkSt/
+on_stack_child_added	gedit-menu-stack-switcher.c	/^on_stack_child_added (GtkStack               *stac/
+on_stack_child_removed	gedit-menu-stack-switcher.c	/^on_stack_child_removed (GtkStack               *st/
+on_syntax_highlighting_changed	gedit-settings.c	/^on_syntax_highlighting_changed (GSettings     *set/
+on_system_font_changed	gedit-settings.c	/^on_system_font_changed (GSettings     *settings,$/
+on_tab_added	gedit-window.c	/^on_tab_added (GeditMultiNotebook *multi,$/
+on_tab_close_request	gedit-window.c	/^on_tab_close_request (GeditMultiNotebook *multi,$/
+on_tab_removed	gedit-window.c	/^on_tab_removed (GeditMultiNotebook *multi,$/
+on_tepl_location_changed	gedit-document.c	/^on_tepl_location_changed (TeplFile      *file,$/
+on_title_icon_visible_updated	gedit-menu-stack-switcher.c	/^on_title_icon_visible_updated (GtkWidget          /
+on_use_default_font_changed	gedit-settings.c	/^on_use_default_font_changed (GSettings     *settin/
+on_view_wrap_mode_changed	gedit-window.c	/^on_view_wrap_mode_changed (GObject     *object,$/
+on_window_realized	gedit-app-osx.m	/^on_window_realized (GtkWidget *widget)$/
+open_activated	gedit-app-osx.m	/^open_activated (GSimpleAction *action,$/
+open_dialog_destroyed	gedit-commands-file.c	/^open_dialog_destroyed (GeditWindow            *win/
+open_dialog_response_cb	gedit-commands-file.c	/^open_dialog_response_cb (GeditFileChooserDialog *d/
+open_files	gedit-app.c	/^open_files (GApplication            *application,$/
+overwrite_mode_changed	gedit-window.c	/^overwrite_mode_changed (GtkTextView *view,$/
+page_entry_activated	gedit-print-preview.c	/^page_entry_activated (GtkEntry          *entry,$/
+page_entry_focus_out	gedit-print-preview.c	/^page_entry_focus_out (GtkEntry          *entry,$/
+page_entry_insert_text	gedit-print-preview.c	/^page_entry_insert_text (GtkEditable *editable,$/
+paginate_cb	gedit-print-job.c	/^paginate_cb (GtkPrintOperation *operation,$/
+panel_on_drag_begin	gedit-documents-panel.c	/^panel_on_drag_begin (GtkWidget      *widget,$/
+panel_on_drag_data_get	gedit-documents-panel.c	/^panel_on_drag_data_get (GtkWidget        *widget,$/
+panel_on_drag_data_received	gedit-documents-panel.c	/^panel_on_drag_data_received (GtkWidget        *wid/
+panel_on_drag_drop	gedit-documents-panel.c	/^panel_on_drag_drop (GtkWidget        *widget,$/
+panel_on_drag_end	gedit-documents-panel.c	/^panel_on_drag_end (GtkWidget      *widget,$/
+panel_on_drag_failed	gedit-documents-panel.c	/^panel_on_drag_failed (GtkWidget      *widget,$/
+panel_on_drag_leave	gedit-documents-panel.c	/^panel_on_drag_leave (GtkWidget      *widget,$/
+panel_on_drag_motion	gedit-documents-panel.c	/^panel_on_drag_motion (GtkWidget      *widget,$/
+panel_on_motion_notify	gedit-documents-panel.c	/^panel_on_motion_notify (GtkWidget      *widget,$/
+parse_error	gedit-io-error-info-bar.c	/^parse_error (const GError *error,$/
+parse_gio_error	gedit-io-error-info-bar.c	/^parse_gio_error (gint          code,$/
+populate_filter_info	gedit-recent.c	/^populate_filter_info (GtkRecentInfo        *info,$/
+populate_popover	gedit-menu-stack-switcher.c	/^populate_popover (GeditMenuStackSwitcher *switcher/
+popup_menu_hide_cb	gedit-view-frame.c	/^popup_menu_hide_cb (GeditViewFrame *frame)$/
+preferences_activated	gedit-app.c	/^preferences_activated (GSimpleAction  *action,$/
+prep_console	gedit-app-win32.c	/^prep_console (void)$/
+prev_button_clicked	gedit-print-preview.c	/^prev_button_clicked (GtkWidget         *button,$/
+preview_cb	gedit-print-job.c	/^preview_cb (GtkPrintOperation        *op,$/
+preview_draw	gedit-print-preview.c	/^preview_draw (GtkWidget         *widget,$/
+preview_layout_key_press	gedit-print-preview.c	/^preview_layout_key_press (GtkWidget         *widge/
+preview_layout_query_tooltip	gedit-print-preview.c	/^preview_layout_query_tooltip (GtkWidget         *w/
+preview_ready	gedit-print-job.c	/^preview_ready (GtkPrintOperationPreview *gtk_previ/
+print_all_encodings	gedit-app.c	/^print_all_encodings (void)$/
+print_cancelled	gedit-tab.c	/^print_cancelled (GtkWidget *bar,$/
+printing_cb	gedit-tab.c	/^printing_cb (GeditPrintJob       *job,$/
+process_by_id	gedit-message-bus.c	/^process_by_id (GeditMessageBus *bus,$/
+process_by_match	gedit-message-bus.c	/^process_by_match (GeditMessageBus      *bus,$/
+process_create_tab	gedit-window.c	/^process_create_tab (GeditWindow *window,$/
+property	gedit-file-chooser-dialog-osx.m	/^@property (readonly) GtkSourceNewlineType newline_/
+push_last_closed_doc	gedit-window.c	/^push_last_closed_doc (GeditWindow   *window,$/
+quit_activated	gedit-app.c	/^quit_activated (GSimpleAction *action,$/
+quit_all	gedit-commands-file.c	/^quit_all (void)$/
+quit_if_needed	gedit-commands-file.c	/^quit_if_needed (GeditWindow *window)$/
+readonly_changed	gedit-window.c	/^readonly_changed (GtkSourceFile *file,$/
+really_close_tab	gedit-commands-file.c	/^really_close_tab (GeditTab *tab)$/
+received_clipboard_contents	gedit-window.c	/^received_clipboard_contents (GtkClipboard     *cli/
+recent_file_activated	gedit-app-osx.m	/^recent_file_activated (GAction        *action,$/
+recent_file_info_free	gedit-app-osx.m	/^recent_file_info_free (gpointer  data,$/
+recent_files_menu_populate	gedit-app-osx.m	/^recent_files_menu_populate (GeditAppOSX *app)$/
+recent_manager_changed	gedit-app-osx.m	/^recent_manager_changed (GtkRecentManager *manager,/
+recoverable_saving_error_info_bar_response	gedit-tab.c	/^recoverable_saving_error_info_bar_response (GtkWid/
+refresh_list	gedit-documents-panel.c	/^refresh_list (GeditDocumentsPanel *panel)$/
+refresh_notebook	gedit-documents-panel.c	/^refresh_notebook (GeditDocumentsPanel *panel,$/
+refresh_notebook_foreach	gedit-documents-panel.c	/^refresh_notebook_foreach (GeditNotebook       *not/
+regex_checkbutton_toggled	gedit-replace-dialog.c	/^regex_checkbutton_toggled (GtkToggleButton    *che/
+regex_error_notify_cb	gedit-replace-dialog.c	/^regex_error_notify_cb (GeditReplaceDialog *dialog)/
+regex_toggled_cb	gedit-view-frame.c	/^regex_toggled_cb (GtkCheckMenuItem *menu_item,$/
+release_untitled_number	gedit-document.c	/^release_untitled_number (gint n)$/
+remove_actions	gedit-window.c	/^remove_actions (GeditWindow *window)$/
+remove_auto_save_timeout	gedit-tab.c	/^remove_auto_save_timeout (GeditTab *tab)$/
+remove_button_clicked_cb	gedit-encodings-dialog.c	/^remove_button_clicked_cb (GtkWidget            *bu/
+remove_entry_tag_timeout_cb	gedit-view-frame.c	/^remove_entry_tag_timeout_cb (GeditViewFrame *frame/
+remove_item	gedit-history-entry.c	/^remove_item (GeditHistoryEntry *entry,$/
+remove_listener	gedit-message-bus.c	/^remove_listener (GeditMessageBus *bus,$/
+remove_message_timeout	gedit-statusbar.c	/^remove_message_timeout (GeditStatusbar *statusbar)/
+remove_notebook	gedit-multi-notebook.c	/^remove_notebook (GeditMultiNotebook *mnb,$/
+remove_tab	gedit-tab.c	/^remove_tab (GeditTab *tab)$/
+renew_flush_timeout	gedit-view-frame.c	/^renew_flush_timeout (GeditViewFrame *frame)$/
+replace_dialog_destroyed	gedit-commands-search.c	/^replace_dialog_destroyed (GeditWindow        *wind/
+replace_dialog_response_cb	gedit-commands-search.c	/^replace_dialog_response_cb (GeditReplaceDialog *di/
+replace_read_only_file	gedit-commands-file.c	/^replace_read_only_file (GtkWindow *parent,$/
+replace_text_entry_changed	gedit-replace-dialog.c	/^replace_text_entry_changed (GtkEditable        *ed/
+reset_button_clicked_cb	gedit-encodings-dialog.c	/^reset_button_clicked_cb (GtkWidget            *but/
+reset_dialog_response_cb	gedit-encodings-dialog.c	/^reset_dialog_response_cb (GtkDialog            *ms/
+respondsToSelector	gedit-app-osx.m	/^- (BOOL)respondsToSelector:(SEL)aSelector$/
+response_cb	gedit-close-confirmation-dialog.c	/^response_cb (GeditCloseConfirmationDialog *dlg,$/
+response_set_save_flags	gedit-tab.c	/^response_set_save_flags (GTask                   */
+restore_button_clicked	gedit-print-job.c	/^restore_button_clicked (GtkButton     *button,$/
+revert_async	gedit-tab.c	/^revert_async (GeditTab            *tab,$/
+revert_dialog	gedit-commands-file.c	/^revert_dialog (GeditWindow   *window,$/
+revert_dialog_response_cb	gedit-commands-file.c	/^revert_dialog_response_cb (GtkDialog   *dialog,$/
+row_create	gedit-documents-panel.c	/^row_create (GtkWidget *row)$/
+row_move	gedit-documents-panel.c	/^row_move (GeditDocumentsPanel *panel,$/
+row_on_button_pressed	gedit-documents-panel.c	/^row_on_button_pressed (GtkWidget      *row_event_b/
+row_on_close_button_clicked	gedit-documents-panel.c	/^row_on_close_button_clicked (GtkWidget *close_butt/
+row_select	gedit-documents-panel.c	/^row_select (GeditDocumentsPanel *panel,$/
+run_backward_search	gedit-commands-search.c	/^run_backward_search (GeditWindow *window,$/
+run_forward_search	gedit-commands-search.c	/^run_forward_search (GeditWindow *window,$/
+save_accels	gedit-app.c	/^save_accels (void)$/
+save_and_close	gedit-commands-file.c	/^save_and_close (GeditTab    *tab,$/
+save_and_close_document	gedit-commands-file.c	/^save_and_close_document (const GList *docs,$/
+save_and_close_documents	gedit-commands-file.c	/^save_and_close_documents (GList         *docs,$/
+save_as_documents_list	gedit-commands-file.c	/^save_as_documents_list (SaveAsData *data)$/
+save_as_documents_list_cb	gedit-commands-file.c	/^save_as_documents_list_cb (GeditTab     *tab,$/
+save_as_tab_async	gedit-commands-file.c	/^save_as_tab_async (GeditTab            *tab,$/
+save_as_tab_finish	gedit-commands-file.c	/^save_as_tab_finish (GeditTab     *tab,$/
+save_as_tab_ready_cb	gedit-commands-file.c	/^save_as_tab_ready_cb (GeditTab     *tab,$/
+save_cb	gedit-tab.c	/^save_cb (GtkSourceFileSaver *saver,$/
+save_dialog_response_cb	gedit-commands-file.c	/^save_dialog_response_cb (GeditFileChooserDialog *d/
+save_documents_list	gedit-commands-file.c	/^save_documents_list (GeditWindow *window,$/
+save_encoding_metadata	gedit-document.c	/^save_encoding_metadata (GeditDocument *doc)$/
+save_metadata	gedit-document.c	/^save_metadata (GeditDocument *doc)$/
+save_page_setup	gedit-app.c	/^save_page_setup (GeditApp *app)$/
+save_panels_state	gedit-window.c	/^save_panels_state (GeditWindow *window)$/
+save_print_settings	gedit-app.c	/^save_print_settings (GeditApp *app)$/
+save_tab	gedit-commands-file.c	/^save_tab (GeditTab    *tab,$/
+save_tab_ready_cb	gedit-commands-file.c	/^save_tab_ready_cb (GeditDocument *doc,$/
+save_window_state	gedit-window.c	/^save_window_state (GtkWidget *widget)$/
+saved_query_info_cb	gedit-document.c	/^saved_query_info_cb (GFile         *location,$/
+saver_data_free	gedit-tab.c	/^saver_data_free (SaverData *data)$/
+saver_data_new	gedit-tab.c	/^saver_data_new (void)$/
+saver_progress_cb	gedit-tab.c	/^saver_progress_cb (goffset  size,$/
+scroll_event_activated	gedit-print-preview.c	/^scroll_event_activated (GtkWidget         *widget,/
+scroll_to_cursor	gedit-tab.c	/^scroll_to_cursor (GeditTab *tab)$/
+search_entry_activate	gedit-view-frame.c	/^search_entry_activate (GtkEntry       *entry,$/
+search_entry_changed_cb	gedit-view-frame.c	/^search_entry_changed_cb (GtkEntry       *entry,$/
+search_entry_escaped	gedit-view-frame.c	/^search_entry_escaped (GtkSearchEntry *entry,$/
+search_entry_flush_timeout	gedit-view-frame.c	/^search_entry_flush_timeout (GeditViewFrame *frame)/
+search_entry_focus_out_event	gedit-view-frame.c	/^search_entry_focus_out_event (GtkWidget      *widg/
+search_entry_icon_release	gedit-view-frame.c	/^search_entry_icon_release (GtkEntry             *e/
+search_entry_insert_text	gedit-view-frame.c	/^search_entry_insert_text (GtkEditable    *editable/
+search_entry_next_match	gedit-view-frame.c	/^search_entry_next_match (GtkSearchEntry *entry,$/
+search_entry_populate_popup	gedit-view-frame.c	/^search_entry_populate_popup (GtkEntry       *entry/
+search_entry_previous_match	gedit-view-frame.c	/^search_entry_previous_match (GtkSearchEntry *entry/
+search_text_entry_changed	gedit-replace-dialog.c	/^search_text_entry_changed (GtkEditable        *edi/
+search_widget_key_press_event	gedit-view-frame.c	/^search_widget_key_press_event (GtkWidget      *wid/
+search_widget_scroll_event	gedit-view-frame.c	/^search_widget_scroll_event (GtkWidget      *widget/
+select_active_tab	gedit-documents-panel.c	/^select_active_tab (GeditDocumentsPanel *panel)$/
+selectionChanged	gedit-file-chooser-dialog-osx.m	/^-(void)selectionChanged:(id)sender$/
+selection_changed	gedit-window.c	/^selection_changed (GeditDocument *doc,$/
+send_message_real	gedit-message-bus.c	/^send_message_real (GeditMessageBus *bus,$/
+separator_func	gedit-encodings-combo-box.c	/^separator_func (GtkTreeModel *model,$/
+setShowsTagField	gedit-file-chooser-dialog-osx.m	/^- (void)setShowsTagField:(BOOL)val;$/
+set_active_tab	gedit-multi-notebook.c	/^set_active_tab (GeditMultiNotebook *mnb,$/
+set_auto_save_enabled	gedit-window.c	/^set_auto_save_enabled (GeditTab *tab,$/
+set_buttons_sensisitivity_according_to_scheme	gedit-preferences-dialog.c	/^set_buttons_sensisitivity_according_to_scheme (Ged/
+set_command_line_wait	gedit-app.c	/^set_command_line_wait (GeditApp *app,$/
+set_command_line_wait_doc	gedit-app.c	/^set_command_line_wait_doc (GeditDocument *doc,$/
+set_content_type	gedit-document.c	/^set_content_type (GeditDocument *doc,$/
+set_content_type_no_guess	gedit-document.c	/^set_content_type_no_guess (GeditDocument *doc,$/
+set_contents	gedit-io-error-info-bar.c	/^set_contents (GtkWidget *area,$/
+set_cursor_according_to_state	gedit-tab.c	/^set_cursor_according_to_state (GtkTextView   *view/
+set_editable	gedit-tab.c	/^set_editable (GeditTab *tab,$/
+set_enum_combo	gedit-file-chooser-dialog-gtk.c	/^set_enum_combo (GtkComboBox *combo,$/
+set_error	gedit-replace-dialog.c	/^set_error (GtkEntry    *entry,$/
+set_font	gedit-settings.c	/^set_font (GeditSettings *gs,$/
+set_info_bar	gedit-tab.c	/^set_info_bar (GeditTab        *tab,$/
+set_info_bar_text	gedit-io-error-info-bar.c	/^set_info_bar_text (GtkWidget   *info_bar,$/
+set_language	gedit-document.c	/^set_language (GeditDocument     *doc,$/
+set_overwrite_mode	gedit-window.c	/^set_overwrite_mode (GeditWindow *window,$/
+set_paste_sensitivity_according_to_clipboard	gedit-window.c	/^set_paste_sensitivity_according_to_clipboard (Gedi/
+set_search_error	gedit-replace-dialog.c	/^set_search_error (GeditReplaceDialog *dialog,$/
+set_search_settings	gedit-replace-dialog.c	/^set_search_settings (GeditReplaceDialog *dialog)$/
+set_search_state	gedit-view-frame.c	/^set_search_state (GeditViewFrame *frame,$/
+set_title	gedit-window.c	/^set_title (GeditWindow *window)$/
+set_unsaved_document	gedit-close-confirmation-dialog.c	/^set_unsaved_document (GeditCloseConfirmationDialog/
+set_view_properties_according_to_state	gedit-tab.c	/^set_view_properties_according_to_state (GeditTab  /
+set_window	gedit-documents-panel.c	/^set_window (GeditDocumentsPanel *panel,$/
+set_window_allow_fullscreen	gedit-app-osx.m	/^set_window_allow_fullscreen (GeditWindow *window)$/
+set_zoom_factor	gedit-print-preview.c	/^set_zoom_factor (GeditPrintPreview *preview,$/
+set_zoom_fit_to_size	gedit-print-preview.c	/^set_zoom_fit_to_size (GeditPrintPreview *preview)$/
+setup_bottom_panel	gedit-window.c	/^setup_bottom_panel (GeditWindow *window)$/
+setup_editor_page	gedit-preferences-dialog.c	/^setup_editor_page (GeditPreferencesDialog *dlg)$/
+setup_font_colors_page	gedit-preferences-dialog.c	/^setup_font_colors_page (GeditPreferencesDialog *dl/
+setup_font_colors_page_font_section	gedit-preferences-dialog.c	/^setup_font_colors_page_font_section (GeditPreferen/
+setup_font_colors_page_style_scheme_section	gedit-preferences-dialog.c	/^setup_font_colors_page_style_scheme_section (Gedit/
+setup_fullscreen_eventbox	gedit-window.c	/^setup_fullscreen_eventbox (GeditWindow *window)$/
+setup_i18n	gedit.c	/^setup_i18n (void)$/
+setup_metadata_manager	gedit-app.c	/^setup_metadata_manager (void)$/
+setup_path	gedit-app-win32.c	/^setup_path (void)$/
+setup_plugins_page	gedit-preferences-dialog.c	/^setup_plugins_page (GeditPreferencesDialog *dlg)$/
+setup_popup_menu	gedit-view-frame.c	/^setup_popup_menu (GeditViewFrame *frame,$/
+setup_side_panel	gedit-window.c	/^setup_side_panel (GeditWindow *window)$/
+setup_statusbar	gedit-window.c	/^setup_statusbar (GeditWindow *window)$/
+setup_theme_extensions	gedit-app.c	/^setup_theme_extensions (GeditApp *app)$/
+setup_view_page	gedit-preferences-dialog.c	/^setup_view_page (GeditPreferencesDialog *dlg)$/
+should_show_progress_info	gedit-tab.c	/^should_show_progress_info (GTimer  **timer,$/
+show_cb	gedit-replace-dialog.c	/^show_cb (GeditReplaceDialog *dialog)$/
+show_line_numbers_menu	gedit-view.c	/^show_line_numbers_menu (GeditView      *view,$/
+show_loading_info_bar	gedit-tab.c	/^show_loading_info_bar (GTask *loading_task)$/
+show_menubar	gedit-app.c	/^show_menubar (void)$/
+show_preview_cb	gedit-tab.c	/^show_preview_cb (GeditPrintJob     *job,$/
+show_saving_info_bar	gedit-tab.c	/^show_saving_info_bar (GTask *saving_task)$/
+show_tabs_changed	gedit-multi-notebook.c	/^show_tabs_changed (GObject     *object,$/
+side_panel_size_allocate	gedit-window.c	/^side_panel_size_allocate (GtkWidget     *widget,$/
+side_panel_visibility_changed	gedit-window.c	/^side_panel_visibility_changed (GtkWidget   *panel,/
+sort_recent_items_mru	gedit-recent.c	/^sort_recent_items_mru (GtkRecentInfo *a,$/
+start_interactive_search_real	gedit-view-frame.c	/^start_interactive_search_real (GeditViewFrame *fra/
+start_search	gedit-view-frame.c	/^start_search (GeditViewFrame *frame)$/
+start_search_finished	gedit-view-frame.c	/^start_search_finished (GtkSourceSearchContext *sea/
+store_print_settings	gedit-tab.c	/^store_print_settings (GeditTab      *tab,$/
+strv_is_empty	gedit-settings.c	/^strv_is_empty (gchar **strv)$/
+style_scheme_changed	gedit-preferences-dialog.c	/^style_scheme_changed (GtkSourceStyleSchemeChooser /
+successful_load	gedit-tab.c	/^successful_load (GTask *loading_task)$/
+switch_to_last_focused_page	gedit-notebook.c	/^switch_to_last_focused_page (GeditNotebook *notebo/
+sync_can_close	gedit-window.c	/^sync_can_close (GeditTab    *tab,$/
+sync_current_tab_actions	gedit-window.c	/^sync_current_tab_actions (GeditWindow *window,$/
+sync_fullscreen_actions	gedit-window.c	/^sync_fullscreen_actions (GeditWindow *window,$/
+sync_label	gedit-notebook-stack-switcher.c	/^sync_label (GeditNotebookStackSwitcher *switcher,$/
+sync_name	gedit-tab-label.c	/^sync_name (GeditTab      *tab,$/
+sync_state	gedit-tab-label.c	/^sync_state (GeditTab      *tab,$/
+sync_tooltip	gedit-tab-label.c	/^sync_tooltip (GeditTab      *tab,$/
+tab_can_close	gedit-commands-file.c	/^tab_can_close (GeditTab  *tab,$/
+tab_save_as_ready_cb	gedit-commands-file.c	/^tab_save_as_ready_cb (GeditTab     *tab,$/
+tab_save_ready_cb	gedit-commands-file.c	/^tab_save_ready_cb (GeditTab     *tab,$/
+tab_state_changed_while_saving	gedit-commands-file.c	/^tab_state_changed_while_saving (GeditTab    *tab,$/
+tab_switched	gedit-window.c	/^tab_switched (GeditMultiNotebook *mnb,$/
+tab_width_changed	gedit-window.c	/^tab_width_changed (GObject     *object,$/
+text_found	gedit-commands-search.c	/^text_found (GeditWindow *window,$/
+text_not_found	gedit-commands-search.c	/^text_not_found (GeditWindow        *window,$/
+theme_changed	gedit-app.c	/^theme_changed (GtkSettings *settings,$/
+transfer_encodings	gedit-encodings-dialog.c	/^transfer_encodings (GList        *paths,$/
+unblock_listener	gedit-message-bus.c	/^unblock_listener (GeditMessageBus *bus,$/
+uninstall_scheme_clicked	gedit-preferences-dialog.c	/^uninstall_scheme_clicked (GtkButton              */
+uninstall_style_scheme	gedit-preferences-dialog.c	/^uninstall_style_scheme (GtkSourceStyleScheme *sche/
+unrecoverable_reverting_error_info_bar_response	gedit-tab.c	/^unrecoverable_reverting_error_info_bar_response (G/
+unrecoverable_saving_error_info_bar_response	gedit-tab.c	/^unrecoverable_saving_error_info_bar_response (GtkW/
+unregister_each	gedit-message-bus.c	/^unregister_each (MessageIdentifier *identifier,$/
+up_button_clicked_cb	gedit-encodings-dialog.c	/^up_button_clicked_cb (GtkWidget            *button/
+update_actions_sensitivity	gedit-window.c	/^update_actions_sensitivity (GeditWindow *window)$/
+update_add_button_sensitivity	gedit-encodings-dialog.c	/^update_add_button_sensitivity (GeditEncodingsDialo/
+update_auto_save_timeout	gedit-tab.c	/^update_auto_save_timeout (GeditTab *tab)$/
+update_button	gedit-menu-stack-switcher.c	/^update_button (GeditMenuStackSwitcher *switcher,$/
+update_can_close	gedit-window.c	/^update_can_close (GeditWindow *window)$/
+update_chosen_buttons_sensitivity	gedit-encodings-dialog.c	/^update_chosen_buttons_sensitivity (GeditEncodingsD/
+update_close_button_sensitivity	gedit-tab-label.c	/^update_close_button_sensitivity (GeditTabLabel *ta/
+update_css_provider	gedit-view.c	/^update_css_provider (GeditView *view)$/
+update_cursor_position_statusbar	gedit-window.c	/^update_cursor_position_statusbar (GtkTextBuffer *b/
+update_empty_search	gedit-document.c	/^update_empty_search (GeditDocument *doc)$/
+update_entry_tag	gedit-view-frame.c	/^update_entry_tag (GeditViewFrame *frame)$/
+update_entry_tag_idle_cb	gedit-view-frame.c	/^update_entry_tag_idle_cb (GeditViewFrame *frame)$/
+update_fullscreen	gedit-window.c	/^update_fullscreen (GeditWindow *window,$/
+update_fullscreen_revealer_state	gedit-window.c	/^update_fullscreen_revealer_state (GeditWindow *win/
+update_goto_line	gedit-view-frame.c	/^update_goto_line (GeditViewFrame *frame)$/
+update_layout_size	gedit-print-preview.c	/^update_layout_size (GeditPrintPreview *preview)$/
+update_menu	gedit-encodings-combo-box.c	/^update_menu (GeditEncodingsComboBox *menu)$/
+update_newline_visibility	gedit-file-chooser-dialog-gtk.c	/^update_newline_visibility (GeditFileChooserDialogG/
+update_open_sensitivity	gedit-app-osx.m	/^update_open_sensitivity (GeditAppOSX *app)$/
+update_regex_error	gedit-replace-dialog.c	/^update_regex_error (GeditReplaceDialog *dialog)$/
+update_remove_button_sensitivity	gedit-encodings-dialog.c	/^update_remove_button_sensitivity (GeditEncodingsDi/
+update_replace_response_sensitivity_cb	gedit-replace-dialog.c	/^update_replace_response_sensitivity_cb (GeditRepla/
+update_responses_sensitivity	gedit-replace-dialog.c	/^update_responses_sensitivity (GeditReplaceDialog */
+update_search_text	gedit-view-frame.c	/^update_search_text (GeditViewFrame *frame)$/
+update_sensitivity	gedit-notebook-popup-menu.c	/^update_sensitivity (GeditNotebookPopupMenu *menu)$/
+update_statusbar	gedit-window.c	/^update_statusbar (GeditWindow *window,$/
+update_statusbar_wrap_mode_checkbox_from_view	gedit-window.c	/^update_statusbar_wrap_mode_checkbox_from_view (Ged/
+update_tabs_visibility	gedit-multi-notebook.c	/^update_tabs_visibility (GeditMultiNotebook *mnb)$/
+update_time_of_last_save_or_load	gedit-document.c	/^update_time_of_last_save_or_load (GeditDocument *d/
+update_up_down_buttons_sensitivity	gedit-encodings-dialog.c	/^update_up_down_buttons_sensitivity (GeditEncodings/
+update_window_state	gedit-window.c	/^update_window_state (GeditWindow *window)$/
+uri_get_dirname	gedit-utils.c	/^uri_get_dirname (const gchar *uri)$/
+user_data	gedit-message-bus.h	/^                                         gpointer /
+view_focused_in	gedit-tab.c	/^view_focused_in (GtkWidget     *widget,$/
+view_frame_mount_operation_factory	gedit-view-frame.c	/^view_frame_mount_operation_factory (GtkSourceFile /
+view_realized	gedit-tab.c	/^view_realized (GtkTextView *view,$/
+visible_func	gedit-highlight-mode-selector.c	/^visible_func (GtkTreeModel               *model,$/
+vpaned_restore_position	gedit-window.c	/^vpaned_restore_position (GtkWidget   *widget,$/
+widget_get_origin	gedit-utils.c	/^widget_get_origin (GtkWidget *widget,$/
+window_delete_event	gedit-app.c	/^window_delete_event (GeditWindow *window,$/
+window_realized	gedit-window.c	/^window_realized (GtkWidget *window,$/
+window_unrealized	gedit-window.c	/^window_unrealized (GtkWidget *window,$/
+wrap_mode_checkbutton_toggled	gedit-preferences-dialog.c	/^wrap_mode_checkbutton_toggled (GtkToggleButton    /
+zoom_fit_button_clicked	gedit-print-preview.c	/^zoom_fit_button_clicked (GtkWidget         *button/
+zoom_in	gedit-print-preview.c	/^zoom_in (GeditPrintPreview *preview)$/
+zoom_in_button_clicked	gedit-print-preview.c	/^zoom_in_button_clicked (GtkWidget         *button,/
+zoom_one_button_clicked	gedit-print-preview.c	/^zoom_one_button_clicked (GtkWidget         *button/
+zoom_out	gedit-print-preview.c	/^zoom_out (GeditPrintPreview *preview)$/
+zoom_out_button_clicked	gedit-print-preview.c	/^zoom_out_button_clicked (GtkWidget         *button/
